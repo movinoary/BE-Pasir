@@ -1,0 +1,109 @@
+tabel Database
+-	roles
+    o	name:string
+    o	permission:string
+    npx sequelize-cli model:generate --name roles --attributes name:string,permission:string
+
+-	user
+    o	nama
+    o	email
+    o	password
+    o	role_id
+    npx sequelize-cli model:generate --name user --attributes name:string,email:string,password:string,role_id:string
+
+-	category
+    o	name
+    npx sequelize-cli model:generate --name category --attributes name:string
+
+-	product
+    o	name:string
+    o	image:string
+    o	purchase_price:string
+    o	selling_price:string
+    npx sequelize-cli model:generate --name product --attributes name:string,image:string,purchase_price:string,selling_price:string
+
+-	product_variant
+    o	name:string
+    o	stock:string
+    o	product_id:string
+    o	price:string
+    npx sequelize-cli model:generate --name product_variant --attributes name:string,stock:string,product_id:string
+
+-	product_category
+    o	id:string
+    o	product_id:string
+    o	category_id:string
+    npx sequelize-cli model:generate --name product_category --attributes id:string,product_id:string,category_id:string
+
+-	transactions
+    o	name:string
+    o	type:string
+    o	total:string
+    npx sequelize-cli model:generate --name transactions --attributes name:string,type:string,total:string
+
+-	product_price
+    o	variant_id:string
+    o	purchase_price:string
+    o	selling_price:string
+    npx sequelize-cli model:generate --name product_price --attributes variant_id:string,purchase_price:string,selling_price:string
+
+-	transaction_items
+    o	name:string
+    o	transactions_id:string
+    o	product_id:string
+    o	amount:string
+    o	price_sell:string
+    o	price_buy:string
+    npx sequelize-cli model:generate --name transaction_items --attributes name:string,transactions_id:string,product_id:string,amount:string,price_sell:string,price_buy:string
+
+
+
+npm init
+npm i express body-parser cors dotenv joi jsonwebtoken multer mysql2 sequelize sequelize-cli
+npx sequelize init
+
+belongsTo 
+one to one
+child to parent
+
+hasOne
+one to one
+parent to child
+
+hasMany
+one to many
+
+belongToMany
+many to many
+harus terdapat 1 table sebagai jembatan
+
+
+// buat bikin database
+npx sequelize db:migrate
+
+// buat ngapus semua
+npx sequelize db:migrate:undo:all
+
+// upload seeders
+npx sequelize-cli db:seed:all
+
+// undo seeders
+npx sequelize-cli db:seed:undo:all
+
+
+// kemaren
+gaji                  : 4.000 perbulan = 25.000 perjam || 3.000 perbulan = 17.000 perjam
+total hari         : 20 hari  
+jam perhari     : 15 jam 
+total jam         : 300 jam
+total harga      : 7.500.000 ||  5.100.000
+
+
+// kemungkinan nanti // kalo diraphin doang 
+total hari         :  10 hari
+jam perhari     : 4 jam
+total jam         : 40 jam
+total harga     : 1.000.000 || 680.000
+
+
+// senin 2 jam + 1 jam
