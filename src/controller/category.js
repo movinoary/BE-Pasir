@@ -26,14 +26,15 @@ exports.addCategory = async (req, res) => {
     });
 
     body = JSON.parse(JSON.stringify(body));
-    res.send({
+    res.status(200).send({
       status: "Success",
+      message: "create category data",
       data: {
         ...body,
       },
     });
   } catch (error) {
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "server error",
     });
@@ -84,13 +85,13 @@ exports.getCategory = async (req, res) => {
       },
     });
 
-    res.send({
-      status: "success",
+    res.status(200).send({
+      status: "success ",
+      message: "Get data category product",
       data,
     });
   } catch (error) {
-    console.log(error);
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });
@@ -138,12 +139,13 @@ exports.getCategoryId = async (req, res) => {
 
     data = JSON.parse(JSON.stringify(data));
 
-    res.send({
-      status: "success",
+    res.status(200).send({
+      status: "success ",
+      message: "Get data category product",
       ...data,
     });
   } catch (error) {
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });
@@ -160,14 +162,13 @@ exports.updateCategory = async (req, res) => {
       },
     });
 
-    res.send({
+    res.status(200).send({
       status: "success",
       message: `Update  informasi id: ${id}`,
       data: req.body,
     });
   } catch (error) {
-    console.log(error);
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });
@@ -185,7 +186,7 @@ exports.deleteCategory = async (req, res) => {
     });
 
     if (body === 1) {
-      res.send({
+      res.status(200).send({
         status: "success",
         message: `Delete informasi  id:${id}`,
       });
@@ -196,7 +197,7 @@ exports.deleteCategory = async (req, res) => {
       });
     }
   } catch (error) {
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });

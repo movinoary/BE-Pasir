@@ -5,9 +5,10 @@ module.exports = {
     await queryInterface.createTable("product_prices", {
       id: {
         allowNull: false,
-        autoIncrement: true,
+        autoIncrement: false,
         primaryKey: true,
-        type: DataTypes.INTEGER,
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4,
       },
       variant_id: {
         type: DataTypes.STRING,

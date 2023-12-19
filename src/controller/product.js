@@ -71,14 +71,15 @@ exports.addProduct = async (req, res) => {
     };
 
     let body = JSON.parse(JSON.stringify(result));
-    res.send({
+    res.status(200).send({
       status: "Success",
+      message: "create product data",
       data: {
         ...body,
       },
     });
   } catch (error) {
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "server error",
     });
@@ -117,74 +118,82 @@ exports.addProductImg = async (req, res) => {
       },
     });
 
-    if (validasiVariant.length === 0) {
-      const bodyProduct = {
-        name: data.name,
-        image: image,
-      };
+    console.log(validasiVariant);
 
-      const fieldsProduct = await product.create({
-        ...bodyProduct,
-      });
+    // if (validasiVariant.length === 0) {
+    const bodyProduct = {
+      name: data.name,
+      image: image,
+    };
 
-      let resultProduct = await product.findOne({
-        where: {
-          id: fieldsProduct.id,
-        },
-      });
+    const fieldsProduct = await product.create({
+      ...bodyProduct,
+    });
 
-      const bodyVariant = dataVariant.map((d) => {
-        return {
-          name: d.name,
-          stock: d.stock,
-          product_id: resultProduct.id,
-        };
-      });
+    let resultProduct = await product.findOne({
+      where: {
+        id: fieldsProduct.id,
+      },
+    });
 
-      const resultVariant = await product_variant.bulkCreate(bodyVariant);
-
-      const bodyPrice = dataVariant.map((d) => {
-        const idVariant = resultVariant.find((t) => t.name === d.name);
-
-        return {
-          variant_id: idVariant.id,
-          purchase_price: Number(d.purchase_price),
-          selling_price: Number(d.selling_price),
-        };
-      });
-
-      const resultPrice = await product_price.bulkCreate(bodyPrice);
-
-      const bodyProductCategory = {
+    const bodyVariant = dataVariant.map((d) => {
+      return {
+        name: d.name,
+        stock: d.stock,
         product_id: resultProduct.id,
-        category_id: data.category_id,
       };
+    });
 
-      const resultProductCategory = await product_category.create({
-        ...bodyProductCategory,
-      });
+    const resultVariant = await product_variant.bulkCreate(bodyVariant);
 
-      const result = {
-        resultProduct,
-        resultVariant,
-        resultPrice,
-        resultProductCategory,
+    const bodyPrice = dataVariant.map((d) => {
+      const idVariant = resultVariant.find((t) => t.name === d.name);
+
+      return {
+        variant_id: idVariant.id,
+        purchase_price: Number(d.purchase_price),
+        selling_price: Number(d.selling_price),
       };
+    });
 
-      body = JSON.parse(JSON.stringify(result));
-      res.send({
-        status: "Success",
-        data: {
-          ...result,
-        },
-      });
-    } else if (validasiVariant.length !== 0) {
-      console.log("false");
-    }
+    const resultPrice = await product_price.bulkCreate(bodyPrice);
+
+    const bodyProductCategory = {
+      product_id: resultProduct.id,
+      category_id: data.category_id,
+    };
+
+    const resultProductCategory = await product_category.create({
+      ...bodyProductCategory,
+    });
+
+    const result = {
+      resultProduct,
+      resultVariant,
+      resultPrice,
+      resultProductCategory,
+    };
+
+    body = JSON.parse(JSON.stringify(result));
+    res.status(200).send({
+      status: "Success ",
+      message: "create product data",
+      data: {
+        ...result,
+      },
+    });
+    // } else if (validasiVariant.length !== 0) {
+    //   res.status(412).send({
+    //     status: "failed",
+    //     message: "variant data is same",
+    //     data: {
+    //       ...result,
+    //     },
+    //   });
+    // }
   } catch (error) {
-    console.log(error);
-    res.send({
-      status: "failed",
+    res.status(400).send({
+      status: "failed create product data",
       message: "server error",
     });
   }
@@ -249,13 +258,13 @@ exports.getProduct = async (req, res) => {
       };
     });
 
-    res.send({
-      status: "success",
+    res.status(200).send({
+      status: "success ",
+      message: "Get data product",
       data: data,
     });
   } catch (error) {
-    console.log(error);
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });
@@ -310,12 +319,13 @@ exports.getProductId = async (req, res) => {
 
     data = JSON.parse(JSON.stringify(data));
 
-    res.send({
+    res.status(200).send({
       status: "success",
+      message: "Get data product",
       data,
     });
   } catch (error) {
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });
@@ -342,13 +352,13 @@ exports.updateProduct = async (req, res) => {
       },
     });
 
-    res.send({
+    res.status(200).send({
       status: "success",
       message: `Update  informasi id: ${id}`,
       data: req.body,
     });
   } catch (error) {
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });
@@ -366,7 +376,7 @@ exports.deleteProduct = async (req, res) => {
     });
 
     if (body === 1) {
-      res.send({
+      res.status(200).send({
         status: "success",
         message: `Delete informasi  id:${id}`,
       });
@@ -377,7 +387,7 @@ exports.deleteProduct = async (req, res) => {
       });
     }
   } catch (error) {
-    res.send({
+    res.status(400).send({
       status: "failed",
       message: "Server Error",
     });

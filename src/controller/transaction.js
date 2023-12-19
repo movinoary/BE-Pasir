@@ -41,7 +41,7 @@ exports.addTransaction = async (req, res) => {
         variant_id: d.variant_id,
         amount: d.amount,
         purchase_price: d.purchase_price,
-        selling_price: d.selling_price,
+        selling_price: d.price_sell,
       };
     });
 
@@ -50,8 +50,15 @@ exports.addTransaction = async (req, res) => {
 
     if (data.type === "OUT") {
       for (let i = 0; i < productVariant.length; i++) {
-        const beforeStock = dbProductVariant[i].stock;
+        const beforeStock = dbProductVariant.find(
+          (d) => d.id === productVariant[i].variant_id
+        ).stock;
         const afterStock = beforeStock - productVariant[i].amount;
+        const stock = {
+          beforeStock,
+          afterStock,
+        };
+        console.log(stock);
         const body = {
           id: productVariant[i].id,
           stock: afterStock,
@@ -137,24 +144,20 @@ exports.addTransaction = async (req, res) => {
       };
 
       let body = JSON.parse(JSON.stringify(results));
-      res.send({
+      res.status(200).send({
         status: "Success",
         data: {
           ...body,
         },
       });
     } else {
-      res.send({
+      res.status(404).send({
         status: "failed",
         message: "Purchase stock exceeds capacity",
       });
     }
   } catch (error) {
-    console.log(error);
-    res.send({
-      status: "failed",
-      message: "server error",
-    });
+    res.status(400).send({ status: "failed", message: "server error" });
   }
 };
 
@@ -198,15 +201,9 @@ exports.getTransaction = async (req, res) => {
       // },
     });
 
-    res.send({
-      status: "success",
-      data,
-    });
+    res.status(200).send({ status: "success", data });
   } catch (error) {
-    res.send({
-      status: "failed",
-      message: "Server Error",
-    });
+    res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
 
@@ -256,15 +253,9 @@ exports.getTransactionId = async (req, res) => {
 
     data = JSON.parse(JSON.stringify(data));
 
-    res.send({
-      status: "success",
-      ...data,
-    });
+    res.status(200).send({ status: "success", ...data });
   } catch (error) {
-    res.send({
-      status: "failed",
-      message: "Server Error",
-    });
+    res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
 
@@ -305,15 +296,9 @@ exports.getTransactionProduct = async (req, res) => {
 
     data = JSON.parse(JSON.stringify(data));
 
-    res.send({
-      status: "success",
-      data: data,
-    });
+    res.status(200).send({ status: "success", data: data });
   } catch (error) {
-    res.send({
-      status: "failed",
-      message: "Server Error",
-    });
+    res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
 
@@ -327,16 +312,13 @@ exports.updateTransaction = async (req, res) => {
       },
     });
 
-    res.send({
+    res.status(200).send({
       status: "success",
       message: `Update  informasi id: ${id}`,
       data: req.body,
     });
   } catch (error) {
-    res.send({
-      status: "failed",
-      message: "Server Error",
-    });
+    res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
 
@@ -351,10 +333,9 @@ exports.deleteTransaction = async (req, res) => {
     });
 
     if (body === 1) {
-      res.send({
-        status: "success",
-        message: `Delete informasi  id:${id}`,
-      });
+      res
+        .status(200)
+        .send({ status: "success", message: `Delete informasi  id:${id}` });
     } else {
       res.status(500).send({
         status: "failed",
@@ -362,9 +343,6 @@ exports.deleteTransaction = async (req, res) => {
       });
     }
   } catch (error) {
-    res.send({
-      status: "failed",
-      message: "Server Error",
-    });
+    res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };

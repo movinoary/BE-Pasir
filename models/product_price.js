@@ -15,15 +15,26 @@ module.exports = (sequelize, DataTypes) => {
     {
       id: {
         allowNull: false,
-        autoIncrement: true,
+        autoIncrement: false,
         primaryKey: true,
-        type: DataTypes.INTEGER,
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4,
       },
       variant_id: {
         type: DataTypes.STRING,
         type: DataTypes.UUID,
         references: {
           model: "product_variants",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+      },
+      price_id: {
+        type: DataTypes.STRING,
+        type: DataTypes.UUID,
+        references: {
+          model: "product_prices",
           key: "id",
         },
         onUpdate: "CASCADE",

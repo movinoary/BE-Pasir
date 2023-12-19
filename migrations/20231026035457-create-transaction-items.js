@@ -40,6 +40,16 @@ module.exports = {
         onUpdate: "CASCADE",
         onDelete: "CASCADE",
       },
+      price_id: {
+        type: DataTypes.STRING,
+        type: DataTypes.UUID,
+        references: {
+          model: "product_prices",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+      },
       amount: {
         type: DataTypes.INTEGER(5),
       },
