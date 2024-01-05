@@ -27,6 +27,7 @@ const {
   getTransaction,
   getTransactionId,
   getTransactionProduct,
+  getTransactionDate,
 } = require("../controller/transaction");
 const { auth } = require("../middleware/auth");
 
@@ -37,27 +38,35 @@ router.post("/register", register);
 router.post("/login", login);
 router.delete("/logout", logout);
 router.patch("/forget-password/:id", forgetPassword);
-router.get("/check-auth", checkAuth);
+router.get("/check-auth", auth, checkAuth);
 
 // CATEGORY
-router.post("/add-category", auth, addCategory);
-router.patch("/update-category/:id", auth, updateCategory);
-router.get("/get-category/", auth, getCategory);
-router.get("/get-category/:id", auth, getCategoryId);
-router.delete("/delete-category/:id", auth, deleteCategory);
+router.post("/category/add", auth, addCategory);
+router.patch("/category/update/:id", auth, updateCategory);
+router.get("/category/get", auth, getCategory);
+router.get("/category/get/:id", auth, getCategoryId);
+router.delete("/category/delete/:id", auth, deleteCategory);
 
 // PRODUCT
-router.post("/add-product", auth, addProduct);
-router.post("/add-product-img", auth, uploadImg("image"), addProductImg);
-router.patch("/update-product/:id", auth, updateProduct);
-router.get("/get-product/", auth, getProduct);
-router.get("/get-product/:id", auth, getProductId);
-router.delete("/delete-product/:id", auth, deleteProduct);
+router.post("/product/add", auth, addProduct);
+router.post("/product/add-img", auth, uploadImg("image"), addProductImg);
+router.patch("/product/update/:id", auth, updateProduct);
+router.get("/product/get", auth, getProduct);
+router.get("/product/get/:id", auth, getProductId);
+router.delete("/product/delete/:id", auth, deleteProduct);
 
 // TRANSACTION
-router.post("/add-transaction", auth, addTransaction);
-router.get("/get-transaction/", auth, getTransaction);
-router.get("/get-transaction/:id", auth, getTransactionId);
-router.get("/get-transaction-product/:id", auth, getTransactionProduct);
+router.post("/transaction/add", auth, addTransaction);
+router.get("/transaction/get/", auth, getTransaction);
+router.get("/transaction/get/:id", auth, getTransactionId);
+router.get("/transaction/get-product/:id", auth, getTransactionProduct);
+router.get("/transaction/get-date/:date", auth, getTransactionDate);
 
 module.exports = router;
+
+// // if (pathname.include(permission)) {
+// req.user = verified;
+// next();
+// // } else {
+// //   res.status(400).send({ message: "Failed permission " });
+// // }

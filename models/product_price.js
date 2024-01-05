@@ -20,21 +20,11 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
       },
-      variant_id: {
+      product_id: {
         type: DataTypes.STRING,
         type: DataTypes.UUID,
         references: {
-          model: "product_variants",
-          key: "id",
-        },
-        onUpdate: "CASCADE",
-        onDelete: "CASCADE",
-      },
-      price_id: {
-        type: DataTypes.STRING,
-        type: DataTypes.UUID,
-        references: {
-          model: "product_prices",
+          model: "product",
           key: "id",
         },
         onUpdate: "CASCADE",

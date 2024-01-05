@@ -10,11 +10,11 @@ module.exports = {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
       },
-      variant_id: {
+      product_id: {
         type: DataTypes.STRING,
         type: DataTypes.UUID,
         references: {
-          model: "product_variants",
+          model: "products",
           key: "id",
         },
         onUpdate: "CASCADE",

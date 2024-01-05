@@ -36,12 +36,11 @@ exports.addTransaction = async (req, res) => {
     const db = await transactions.findAll({});
 
     const productVariant = data.product.map((d) => {
+      const id = (d.variant_id && d.variant_id) || d.id_variant;
       return {
-        id: d.variant_id,
-        variant_id: d.variant_id,
+        id: id,
+        variant_id: id,
         amount: d.amount,
-        purchase_price: d.purchase_price,
-        selling_price: d.price_sell,
       };
     });
 
@@ -54,11 +53,6 @@ exports.addTransaction = async (req, res) => {
           (d) => d.id === productVariant[i].variant_id
         ).stock;
         const afterStock = beforeStock - productVariant[i].amount;
-        const stock = {
-          beforeStock,
-          afterStock,
-        };
-        console.log(stock);
         const body = {
           id: productVariant[i].id,
           stock: afterStock,
@@ -73,7 +67,13 @@ exports.addTransaction = async (req, res) => {
       }
     } else if (data.type === "IN") {
       for (let i = 0; i < productVariant.length; i++) {
-        const beforeStock = dbProductVariant[i].stock;
+        const idVariant =
+          (productVariant[i].variant_id && productVariant[i].variant_id) ||
+          productVariant[i].id_variant;
+
+        const beforeStock = dbProductVariant.find(
+          (d) => d.id === idVariant
+        ).stock;
         const afterStock = beforeStock + productVariant[i].amount;
         const body = {
           id: productVariant[i].id,
@@ -131,6 +131,10 @@ exports.addTransaction = async (req, res) => {
         return {
           ...d,
           transactions_id: fieldsTransaction.id,
+          product_id: (d.product_id && d.product_id) || d.id_product,
+          variant_id: (d.variant_id && d.variant_id) || d.id_variant,
+          price_id: (d.price_id && d.price_id) || d.id_price,
+          price: d.price * d.amount,
         };
       });
 
@@ -187,6 +191,13 @@ exports.getTransaction = async (req, res) => {
               },
             },
             {
+              model: product_price,
+              as: "prices",
+              attributes: {
+                exclude: ["id", "createdAt", "updatedAt"],
+              },
+            },
+            {
               model: product_variant,
               as: "variant",
               attributes: {
@@ -237,6 +248,13 @@ exports.getTransactionId = async (req, res) => {
               },
             },
             {
+              model: product_price,
+              as: "prices",
+              attributes: {
+                exclude: ["id", "createdAt", "updatedAt"],
+              },
+            },
+            {
               model: product_variant,
               as: "variant",
               attributes: {
@@ -282,6 +300,13 @@ exports.getTransactionProduct = async (req, res) => {
           },
         },
         {
+          model: product_price,
+          as: "prices",
+          attributes: {
+            exclude: ["id", "createdAt", "updatedAt"],
+          },
+        },
+        {
           model: transactions,
           as: "transaction",
           attributes: {
@@ -290,11 +315,66 @@ exports.getTransactionProduct = async (req, res) => {
         },
       ],
       attributes: {
-        exclude: ["createdAt", "updatedAt"],
+        exclude: ["transactions_id", "product_id", "variant_id", "price_id"],
       },
     });
 
     data = JSON.parse(JSON.stringify(data));
+
+    res.status(200).send({ status: "success", data: data });
+  } catch (error) {
+    res.status(400).send({ status: "failed", message: "Server Error" });
+  }
+};
+
+exports.getTransactionDate = async (req, res) => {
+  try {
+    const { date } = req.params;
+    let data = await transaction_items.findAll({
+      include: [
+        {
+          model: product,
+          as: "product",
+          attributes: {
+            exclude: ["id", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: product_variant,
+          as: "variant",
+          attributes: {
+            exclude: ["id", "product_id", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: product_price,
+          as: "prices",
+          attributes: {
+            exclude: ["id", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: transactions,
+          as: "transaction",
+          attributes: {
+            exclude: ["id", "updatedAt"],
+          },
+        },
+      ],
+      attributes: {
+        exclude: ["transactions_id", "product_id", "variant_id", "price_id"],
+      },
+    });
+    data = JSON.parse(JSON.stringify(data));
+
+    const filterDate = data.map((d) => {
+      return {
+        ...d,
+        date: d.createdAt.split("T")[0],
+      };
+    });
+
+    data = filterDate.filter((d) => d.date === date);
 
     res.status(200).send({ status: "success", data: data });
   } catch (error) {

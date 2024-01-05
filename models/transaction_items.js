@@ -21,6 +21,12 @@ module.exports = (sequelize, DataTypes) => {
           name: "variant_id",
         },
       });
+      transaction_items.belongsTo(models.product_price, {
+        as: "prices",
+        foreignKey: {
+          name: "price_id",
+        },
+      });
       transaction_items.belongsTo(models.transactions, {
         as: "transaction",
         foreignKey: {
@@ -63,6 +69,16 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.UUID,
         references: {
           model: "product_variants",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+      },
+      price_id: {
+        type: DataTypes.STRING,
+        type: DataTypes.UUID,
+        references: {
+          model: "product_prices",
           key: "id",
         },
         onUpdate: "CASCADE",

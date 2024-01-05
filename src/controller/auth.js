@@ -1,4 +1,4 @@
-const { user } = require("../../models");
+const { user, roles } = require("../../models");
 const Joi = require("joi");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -92,7 +92,7 @@ exports.login = async (req, res) => {
     if (!userExist) {
       return res.status(400).send({
         status: "Failed",
-        message: "Username doesnt match",
+        message: "Email doesnt match",
       });
     }
 
@@ -105,19 +105,33 @@ exports.login = async (req, res) => {
       });
     }
 
+    const role = await roles.findOne({
+      where: {
+        id: userExist?.role_id,
+      },
+      attributes: {
+        exclude: ["createdAt", "updatedAt"],
+      },
+    });
+
+    const permission = JSON.parse(role.permission);
+
     const dataToken = {
       id: userExist.id,
+      type: role.name,
+      permission,
     };
 
     const token = jwt.sign(dataToken, process.env.TOKEN_KEY);
 
     res.status(200).send({
       status: "success...",
+      message: "login success",
       data: {
         id: userExist.id,
         user: {
           id: userExist.dataValues.id,
-          role: userExist.dataValues.role,
+          role: role.name,
           name: userExist.dataValues.name,
           email: userExist.dataValues.email,
         },
@@ -125,7 +139,6 @@ exports.login = async (req, res) => {
       },
     });
   } catch (error) {
-    console.log(error);
     res.status(500).send({
       status: "failed",
       message: "Server Error",
@@ -194,11 +207,13 @@ exports.forgetPassword = async (req, res) => {
 
 exports.checkAuth = async (req, res) => {
   try {
-    const id = req.query.id;
+    const authHeader = req.header("Authorization");
+    const token = authHeader && authHeader.split(" ")[1];
+    const verified = jwt.verify(token, process.env.TOKEN_KEY);
 
     let dataUser = await user.findOne({
       where: {
-        id,
+        id: verified.id,
       },
       attributes: {
         exclude: ["createdAt", "updatedAt", "password"],
@@ -212,11 +227,17 @@ exports.checkAuth = async (req, res) => {
     }
     dataUser = JSON.parse(JSON.stringify(dataUser));
 
+    dataUser = {
+      ...dataUser,
+      token,
+    };
+
     res.send({
       status: "success",
       data: dataUser,
     });
   } catch (error) {
+    console.log(error);
     res.status({
       status: "failed",
       message: "Server Error",
