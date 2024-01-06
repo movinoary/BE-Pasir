@@ -134,6 +134,7 @@ exports.login = async (req, res) => {
           role: role.name,
           name: userExist.dataValues.name,
           email: userExist.dataValues.email,
+          permission: permission,
         },
         token,
       },
@@ -215,6 +216,15 @@ exports.checkAuth = async (req, res) => {
       where: {
         id: verified.id,
       },
+      include: [
+        {
+          model: roles,
+          as: "role",
+          attributes: {
+            exclude: ["password", "createdAt", "updatedAt"],
+          },
+        },
+      ],
       attributes: {
         exclude: ["createdAt", "updatedAt", "password"],
       },
@@ -226,10 +236,15 @@ exports.checkAuth = async (req, res) => {
       });
     }
     dataUser = JSON.parse(JSON.stringify(dataUser));
+    const role = JSON.parse(dataUser.role.permission);
 
     dataUser = {
       ...dataUser,
       token,
+      role: {
+        ...dataUser.role,
+        permission: role,
+      },
     };
 
     res.send({

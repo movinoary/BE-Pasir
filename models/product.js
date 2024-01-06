@@ -9,6 +9,18 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      product.belongsTo(models.user, {
+        as: "createby",
+        foreignKey: {
+          name: "createBy",
+        },
+      });
+      product.belongsTo(models.user, {
+        as: "updateby",
+        foreignKey: {
+          name: "updateBy",
+        },
+      });
       product.hasMany(models.product_variant, {
         as: "variant",
         foreignKey: {
@@ -43,6 +55,24 @@ module.exports = (sequelize, DataTypes) => {
       },
       image: {
         type: DataTypes.STRING,
+      },
+      createBy: {
+        type: DataTypes.UUID,
+        references: {
+          model: "users",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+      },
+      updateBy: {
+        type: DataTypes.UUID,
+        references: {
+          model: "users",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       createdAt: {
         allowNull: false,

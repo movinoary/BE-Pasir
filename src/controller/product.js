@@ -1,4 +1,5 @@
 const {
+  user,
   product,
   product_variant,
   product_price,
@@ -28,6 +29,7 @@ exports.addProduct = async (req, res) => {
     */
   try {
     const { ...data } = req.body;
+    const userID = req.user.id;
 
     const dataVariant = JSON.parse(data.variant);
     const listVariantName = dataVariant.map((d) => d.name);
@@ -40,6 +42,8 @@ exports.addProduct = async (req, res) => {
     const bodyProduct = {
       name: data.name,
       image: data.image,
+      createBy: userID,
+      updateBy: userID,
     };
 
     const fieldsProduct = await product.create({
@@ -134,6 +138,7 @@ exports.addProductImg = async (req, res) => {
   try {
     const { ...data } = req.body;
     const image = req.file.filename;
+    const userID = req.user.id;
 
     const dataVariant = JSON.parse(data.variant);
     const listVariantName = dataVariant.map((d) => d.name);
@@ -146,6 +151,8 @@ exports.addProductImg = async (req, res) => {
     const bodyProduct = {
       name: data.name,
       image: image,
+      createBy: userID,
+      updateBy: userID,
     };
 
     const fieldsProduct = await product.create({
@@ -210,6 +217,7 @@ exports.addProductImg = async (req, res) => {
     //   });
     // }
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed create product data",
       message: "server error",
@@ -219,13 +227,27 @@ exports.addProductImg = async (req, res) => {
 
 exports.getProduct = async (req, res) => {
   try {
-    const data = await product.findAll({
+    let data = await product.findAll({
       include: [
         {
           model: product_variant,
           as: "variant",
           attributes: {
             exclude: ["product_id", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: user,
+          as: "createby",
+          attributes: {
+            exclude: ["password", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: user,
+          as: "updateby",
+          attributes: {
+            exclude: ["password", "createdAt", "updatedAt"],
           },
         },
         {
@@ -257,10 +279,24 @@ exports.getProduct = async (req, res) => {
       },
     });
 
+    data = JSON.parse(JSON.stringify(data));
+
+    const result = data.map((d) => {
+      const price = d.list_price.sort((a, b) =>
+        a.createdAt < b.createdAt ? 1 : -1
+      )[0];
+      return {
+        ...d,
+        price_id: price.id,
+        selling_price: price.selling_price,
+        purchase_price: price.purchase_price,
+      };
+    });
+
     res.status(200).send({
       status: "success ",
       message: "Get data product",
-      data: data,
+      data: result,
     });
   } catch (error) {
     console.log(error);
@@ -282,6 +318,20 @@ exports.getProductId = async (req, res) => {
         {
           model: product_variant,
           as: "variant",
+          attributes: {
+            exclude: ["product_id", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: user,
+          as: "createby",
+          attributes: {
+            exclude: ["product_id", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: user,
+          as: "updateby",
           attributes: {
             exclude: ["product_id", "createdAt", "updatedAt"],
           },
@@ -317,10 +367,20 @@ exports.getProductId = async (req, res) => {
 
     data = JSON.parse(JSON.stringify(data));
 
+    const price = data.list_price.sort((a, b) =>
+      a.createdAt < b.createdAt ? 1 : -1
+    )[0];
+    const result = {
+      ...data,
+      price_id: price.id,
+      selling_price: price.selling_price,
+      purchase_price: price.purchase_price,
+    };
+
     res.status(200).send({
       status: "success",
       message: "Get data product",
-      data,
+      data: result,
     });
   } catch (error) {
     res.status(400).send({

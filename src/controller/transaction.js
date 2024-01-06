@@ -1,4 +1,5 @@
 const {
+  user,
   transactions,
   transaction_items,
   product,
@@ -29,9 +30,9 @@ exports.addTransaction = async (req, res) => {
     }
       */
   try {
-    const { ...data } = req.body;
+    let { ...data } = req.body;
+    const userID = req.user.id;
 
-    // start update product variant (update stock)
     const dbProductVariant = await product_variant.findAll({});
     const db = await transactions.findAll({});
 
@@ -85,17 +86,42 @@ exports.addTransaction = async (req, res) => {
           validationStock.push(false);
         } else {
           validationStock.push(true);
-          const productPrice = data.product.map((d) => {
-            return {
-              variant_id: d.variant_id,
-              purchase_price: d.purchase_price,
-              selling_price: d.selling_price,
-            };
-          });
-
-          await product_price.bulkCreate(productPrice);
         }
       }
+
+      let filterProduct = data.product.map((d) => d.product_id);
+
+      filterProduct = [...new Set(filterProduct)];
+
+      const productPrice = filterProduct.map((d) => {
+        const findProduct = data.product.find(
+          (t) => t.id_product || t.product_id === d
+        );
+        return {
+          product_id: findProduct.product_id,
+          purchase_price: findProduct.purchase_price,
+          selling_price: findProduct.selling_price,
+        };
+      });
+
+      let resultProductPrice = await product_price.bulkCreate(productPrice);
+      resultProductPrice = JSON.parse(JSON.stringify(resultProductPrice));
+
+      const productInputIDPrice = data.product.map((d) => {
+        const findId = resultProductPrice.find(
+          (t) => t.product_id === d.product_id
+        );
+
+        return {
+          ...d,
+          price_id: findId.id,
+        };
+      });
+
+      data = {
+        ...data,
+        product: productInputIDPrice,
+      };
     }
 
     validationStock = validationStock.find((d) => d === false);
@@ -120,6 +146,7 @@ exports.addTransaction = async (req, res) => {
         type: data.type,
         methods: data.methods,
         total_price: totalPrice,
+        createBy: userID,
       };
 
       const fieldsTransaction = await transactions.create({
@@ -127,19 +154,32 @@ exports.addTransaction = async (req, res) => {
       });
 
       // transaction item
-      const bodyTransactionProduct = data.product.map((d) => {
+      const bodyTransactionItems = data.product.map((d) => {
+        let price;
+        if (data.type === "IN") {
+          price = d.purchase_price * d.amount;
+        } else if (data.type === "OUT") {
+          price = d.selling_price * d.amount;
+        }
+
+        const variant_id = d.variant_id || d.id_variant;
+        const product_id = d.product_id || d.id_product;
+        const price_id = d.price_id || d.id_price;
+
         return {
           ...d,
           transactions_id: fieldsTransaction.id,
-          product_id: (d.product_id && d.product_id) || d.id_product,
-          variant_id: (d.variant_id && d.variant_id) || d.id_variant,
-          price_id: (d.price_id && d.price_id) || d.id_price,
-          price: d.price * d.amount,
+          product_id,
+          variant_id,
+          price_id,
+          price: price,
         };
       });
 
+      console.group(bodyTransactionItems);
+
       const fieldsTransactionProduct = await transaction_items.bulkCreate(
-        bodyTransactionProduct
+        bodyTransactionItems
       );
 
       const results = {
@@ -161,14 +201,22 @@ exports.addTransaction = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "server error" });
   }
 };
 
 exports.getTransaction = async (req, res) => {
   try {
-    const data = await transactions.findAll({
+    let data = await transactions.findAll({
       include: [
+        {
+          model: user,
+          as: "create_by",
+          attributes: {
+            exclude: ["password", "createdAt", "updatedAt"],
+          },
+        },
         {
           model: transaction_items,
           as: "items",
@@ -211,8 +259,10 @@ exports.getTransaction = async (req, res) => {
       //   exclude: ["createdAt", "updatedAt"],
       // },
     });
+    data = JSON.parse(JSON.stringify(data));
+    data = data.sort((a, b) => (a.no_transaction > b.no_transaction ? -1 : 1));
 
-    res.status(200).send({ status: "success", data });
+    res.status(200).send({ status: "success", data: data });
   } catch (error) {
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
@@ -226,6 +276,13 @@ exports.getTransactionId = async (req, res) => {
         id,
       },
       include: [
+        {
+          model: user,
+          as: "create_by",
+          attributes: {
+            exclude: ["password", "createdAt", "updatedAt"],
+          },
+        },
         {
           model: transaction_items,
           as: "items",
@@ -270,9 +327,11 @@ exports.getTransactionId = async (req, res) => {
     });
 
     data = JSON.parse(JSON.stringify(data));
+    data = data.sort((a, b) => (a.no_transaction > b.no_transaction ? -1 : 1));
 
-    res.status(200).send({ status: "success", ...data });
+    res.status(200).send({ status: "success", data });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -312,6 +371,15 @@ exports.getTransactionProduct = async (req, res) => {
           attributes: {
             exclude: ["id", "updatedAt"],
           },
+          include: [
+            {
+              model: user,
+              as: "create_by",
+              attributes: {
+                exclude: ["password", "createdAt", "updatedAt"],
+              },
+            },
+          ],
         },
       ],
       attributes: {
@@ -320,6 +388,9 @@ exports.getTransactionProduct = async (req, res) => {
     });
 
     data = JSON.parse(JSON.stringify(data));
+    data = data.sort((a, b) =>
+      a.transaction.no_transaction > b.transaction.no_transaction ? -1 : 1
+    );
 
     res.status(200).send({ status: "success", data: data });
   } catch (error) {
@@ -359,6 +430,15 @@ exports.getTransactionDate = async (req, res) => {
           attributes: {
             exclude: ["id", "updatedAt"],
           },
+          include: [
+            {
+              model: user,
+              as: "create_by",
+              attributes: {
+                exclude: ["password", "createdAt", "updatedAt"],
+              },
+            },
+          ],
         },
       ],
       attributes: {
@@ -375,6 +455,8 @@ exports.getTransactionDate = async (req, res) => {
     });
 
     data = filterDate.filter((d) => d.date === date);
+
+    data = data.sort((a, b) => (a.no_transaction > b.no_transaction ? -1 : 1));
 
     res.status(200).send({ status: "success", data: data });
   } catch (error) {

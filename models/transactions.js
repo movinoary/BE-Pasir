@@ -9,6 +9,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      transactions.belongsTo(models.user, {
+        as: "create_by",
+        foreignKey: {
+          name: "createBy",
+        },
+      });
       transactions.hasMany(models.transaction_items, {
         as: "items",
         foreignKey: {
@@ -37,6 +43,15 @@ module.exports = (sequelize, DataTypes) => {
       },
       total_price: {
         type: DataTypes.STRING,
+      },
+      createBy: {
+        type: DataTypes.UUID,
+        references: {
+          model: "users",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       createdAt: {
         allowNull: false,

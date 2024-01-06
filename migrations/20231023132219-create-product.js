@@ -16,6 +16,24 @@ module.exports = {
       image: {
         type: DataTypes.STRING,
       },
+      createBy: {
+        type: DataTypes.UUID,
+        references: {
+          model: "users",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+      },
+      updateBy: {
+        type: DataTypes.UUID,
+        references: {
+          model: "users",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
+      },
       createdAt: {
         allowNull: false,
         type: DataTypes.DATE,
