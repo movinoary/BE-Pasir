@@ -18,12 +18,12 @@ module.exports = {
         {
           id: "345edfe3-ee84-43ae-8016-7e29bbf93a55",
           name: "admin",
-          permission: `{"server": ["category", "product", "transaction"], "client":["cashier", "inventory", "transaction", "closing", "setting"]}`,
+          permission: `{"server": ["category", "product", "transaction"], "client":["cashier", "inventory", "transaction", "closing", "settings"]}`,
         },
         {
           id: "8ebe255b-89b2-40e2-9bc3-4e8beeabebab",
           name: "cashier",
-          permission: `{"server": ["category", "product"], "client":["cashier", "closing", "setting"]}`,
+          permission: `{"server": ["category", "product"], "client":["cashier", "closing", "settings"]}`,
         },
       ],
       {}

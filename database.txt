@@ -58,6 +58,13 @@ tabel Database
 
 
 
+yarn add
+npx sequelize init
+npx sequelize db:migrate
+npx sequelize-cli db:seed:all
+
+
+
 npm init
 npm i express body-parser cors dotenv joi jsonwebtoken multer mysql2 sequelize sequelize-cli
 npx sequelize init
@@ -90,20 +97,3 @@ npx sequelize-cli db:seed:all
 // undo seeders
 npx sequelize-cli db:seed:undo:all
 
-
-// kemaren
-gaji                  : 4.000 perbulan = 25.000 perjam || 3.000 perbulan = 17.000 perjam
-total hari         : 20 hari  
-jam perhari     : 15 jam 
-total jam         : 300 jam
-total harga      : 7.500.000 ||  5.100.000
-
-
-// kemungkinan nanti // kalo diraphin doang 
-total hari         :  10 hari
-jam perhari     : 4 jam
-total jam         : 40 jam
-total harga     : 1.000.000 || 680.000
-
-
-// senin 2 jam + 1 jam
