@@ -13,7 +13,7 @@ services:
     networks:
       - pasir_be
     volumes:
-      - DBVolumes:/var/lib/mysql
+      - ./db_data:/var/lib/mysql
 
   pasir_be:
     build:
