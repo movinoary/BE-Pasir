@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  pasir_db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: pasir_db
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    networks:
+      - pasir_be
+    volumes:
+      - DBVolumes:/var/lib/mysql
+
+  pasir_be:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pasir_be
+    depends_on:
+      - pasir_db
+    ports:
+      - "5020:5020"
+    volumes:
+      - .:/src
+    environment:
+      NODE_ENV: development
+    networks:
+      - pasir_be
+    command:
+      [
+        "./script/wait-for-it.sh",
+        "pasir_db:3306",
+        "-t",
+        "0",
+        "--",
+        "./startup.sh"
+      ]
+
+volumes:
+  DBVolumes:
+
+
+networks:
+  pasir_be:

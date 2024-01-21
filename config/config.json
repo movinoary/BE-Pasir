@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "pasir",
-    "host": "127.0.0.1",
+    "password": "example",
+    "database": "mysql",
+    "host": "pasir_db",
+    "port": 3306,
     "dialect": "mysql"
   },
   "test": {
