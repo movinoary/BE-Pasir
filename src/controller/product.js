@@ -247,10 +247,6 @@ exports.addProductImg = async (req, res) => {
       .reduce((a, b) => a + b, 0);
     const price = Number(data.purchase_price) * amount;
 
-    console.log("amount", amount);
-    console.log("purchase_price", data.purchase_price);
-    console.log("price", price);
-
     let bodyTransaction = {
       no_transaction: `AD000${db.length + 1}`,
       type: "IN",

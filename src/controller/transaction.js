@@ -33,8 +33,6 @@ exports.addTransaction = async (req, res) => {
     let { ...data } = req.body;
     const userID = req.user.id;
 
-    console.log(data);
-
     const dbProductVariant = await product_variant.findAll({});
     const db = await transactions.findAll({});
 
@@ -96,7 +94,6 @@ exports.addTransaction = async (req, res) => {
           productVariant[i].id_variant;
 
         const beforeStock = dbProductVariant.find((d) => d.id === idVariant);
-        console.log("beforeStock", beforeStock);
         const afterStock = beforeStock.stock + productVariant[i].amount;
         const totalStock = beforeStock.stockTotal + productVariant[i].amount;
         const body = {
@@ -228,7 +225,6 @@ exports.addTransaction = async (req, res) => {
       });
     }
   } catch (error) {
-    console.log(error);
     res.status(400).send({ status: "failed", message: "server error" });
   }
 };

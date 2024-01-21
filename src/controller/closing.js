@@ -128,8 +128,6 @@ exports.getClosingRangeDate = async (req, res) => {
 
       result = result.sort((a, b) => (a.createdAt < b.createdAt ? -1 : 1));
 
-      console.log(result.length);
-
       res.status(200).send({ status: "success", data: result });
     } else if (startDate[1] !== endDate[1]) {
       res
@@ -137,7 +135,6 @@ exports.getClosingRangeDate = async (req, res) => {
         .send({ status: "failed", message: "Please Select Same Month" });
     }
   } catch (error) {
-    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };

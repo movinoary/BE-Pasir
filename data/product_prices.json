@@ -1,0 +1,1930 @@
+[
+  {
+    "id": "c9e5f1bb-b6c1-41cb-93b8-1451547ee202",
+    "product_id": "9e167d15-0621-4dd9-8324-d1cc32647934",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "198e53ab-fa63-4356-bf22-b00cf16d7877",
+    "product_id": "04154ec3-69cd-495e-ba3f-c01976cbaa42",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "760d05ec-9faa-45a2-b017-014fc699a91c",
+    "product_id": "5c1bc09e-800c-49bb-9d4b-e92fd547ff8d",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "77d0825d-cb5b-470c-ae54-56cdf85fdc80",
+    "product_id": "552e8413-0f9d-4fc4-b921-ce36fbac8134",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e90358b4-42d3-4d0c-ac38-15c8fc79344d",
+    "product_id": "31aff1be-bd34-4936-9d2e-9b41b69a258a",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "272ae374-83c9-4b38-8b31-9e96fdda5443",
+    "product_id": "a782fd60-48b9-475c-a258-0e889b22e0c5",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4a650022-b7e0-4bab-b010-f957b3cf3636",
+    "product_id": "dded13e2-42f2-4fe4-9fd7-67a75ae17181",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8b099440-2efb-4750-997c-1fe5312508f9",
+    "product_id": "348f9396-5159-4d06-889e-84b24ff68205",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "331130a1-3d4e-46ca-9773-5d78110b3e3e",
+    "product_id": "3e589591-6f3b-4df8-8c8b-de0cf96aaa3d",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f828243b-25b7-40e8-b554-ad5b07163c30",
+    "product_id": "791f471b-dfda-4afd-bc1b-5fd223f5a66b",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c66072dc-fedf-4726-8487-d59668f34249",
+    "product_id": "091a245b-2642-41ac-b383-cd52b63e50a6",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2fbf8daf-5eb4-474b-a9a6-23e235cbb8f4",
+    "product_id": "30084986-75ae-4b27-8ef1-97f7f3bfdd69",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bf30a749-6863-470e-aad5-f687762ed093",
+    "product_id": "64d91a41-2d85-4043-a5d4-bcd5be37d8c0",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0069fd42-3207-4cef-8d2a-e3c8ba94c078",
+    "product_id": "e1a24194-1f94-42b0-89e7-4563e3ec3035",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "589152fb-44cf-4a7d-8777-ea855ced28a6",
+    "product_id": "e590d1af-4776-45d9-a26f-465882226f59",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0314a6b2-2b1d-4a46-a81e-2b72836c7ae4",
+    "product_id": "2db14326-93a6-4786-8456-03172c399e38",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "683062d2-1bc6-43fb-a534-3166b5cec55d",
+    "product_id": "6130840e-73c2-4e89-8d02-b1436802611f",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b0cf1005-39fd-4fc1-92e1-add9df49a5e7",
+    "product_id": "eb819eb8-5f2f-4e47-afb0-2faadf4580ee",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "313ae129-fb35-42d6-89e8-2f027cc44b67",
+    "product_id": "e0d9e3a2-35f2-4f23-bce7-39c0cef15d1e",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "dc44fda8-0499-4469-8f6b-bb1b0b8de552",
+    "product_id": "b4a29c3c-258e-4bcb-81b2-f5090d5cebcf",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "9794e918-ad83-40a3-804e-b5c4c228ad85",
+    "product_id": "841072cd-ca44-4ad6-868f-f45da3f98dea",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2dfabf04-fdf5-4a87-9046-7c9ef208a587",
+    "product_id": "0cd62dfd-cdaf-4e18-bc9e-7855fdfa4fb6",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "88ba159c-4d88-42da-8e1a-e680b5db6c9c",
+    "product_id": "c7ea4dc7-4102-47e1-b69c-fa6c22f112bb",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "783fb80f-8f32-45c1-855f-885898d2653e",
+    "product_id": "91300056-a032-4e0d-8d56-7075a3fbb940",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3442b788-823e-4313-8c45-b0f3ec08e99c",
+    "product_id": "e9016582-5528-45f9-8cf6-879c950bddac",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "698f334b-c159-4bd2-a9a9-e3d4bd3e7841",
+    "product_id": "3f5a6ff8-e003-424e-9d85-43672ba79836",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ca0f611c-f1b4-4df5-90ff-e18c279d10eb",
+    "product_id": "61be3a02-00a1-46fe-8198-f505e4d9395b",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ffc9cea5-d84a-433f-a498-19b0cf4a174e",
+    "product_id": "02f2a1ae-672f-4354-b993-4fccc078a92d",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d5034e54-d541-47a1-a0e6-1d122b1364e3",
+    "product_id": "68ad5696-c5c9-4473-ac60-4407a36013f1",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e97ffe6b-88d9-4a62-b4bd-b6116000fbb2",
+    "product_id": "b932577a-49a5-45fd-9f92-72acadee61b4",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "74f8bf80-7dfc-408b-9540-417b1ffa5ab8",
+    "product_id": "4140bd20-270a-45c6-9048-2282f42c54f8",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "24df3889-ae57-494d-8e82-2eeaae1a5a7c",
+    "product_id": "4b08dbd9-5cda-4e8d-8520-0dddf4f5b9e0",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e2290945-0a01-4625-8ada-909b07bc18c0",
+    "product_id": "04062d3a-0bdf-4e92-817c-aaf622a2a405",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4c4db753-8ed6-43c9-94a5-f945d9daba38",
+    "product_id": "bdbb86c6-8368-4304-8409-c810015a5f93",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b66951d0-d3a2-4497-8d38-58d959fec293",
+    "product_id": "8a7ea043-07c1-4795-880c-d6320558d132",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "83bdc773-15b8-4fb6-bf13-61808cd18687",
+    "product_id": "f12f4581-304b-4946-a1ef-bf441487c8e1",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "eed913e4-addd-49db-832a-28c55cf68903",
+    "product_id": "735edaae-782d-4445-9018-edafaba731a6",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e45131fe-1a1e-447f-83d5-f47ef6c54392",
+    "product_id": "51a7c2c3-cd23-4ecc-811b-1d2066765cfb",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e8e07044-35b6-4bf1-a0d0-b4f4912c3863",
+    "product_id": "92c23d3f-d25f-4547-811b-5bc4951ac0fa",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8c3692ea-fbad-4626-b992-2bd08b8adbff",
+    "product_id": "9be717d0-7c9f-44a1-a9ca-5df296d0767e",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "36f0e8bc-f386-42ce-95f9-0bd918266029",
+    "product_id": "300dc4ba-9562-4963-9a64-463a6e4fdb52",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f16d4768-499f-4ff9-ac35-529cbedef301",
+    "product_id": "a0b0c224-c809-4f25-a57d-d8e7b027b003",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b2fd1288-08e2-4dbf-b25c-8ede0ec845e0",
+    "product_id": "ba724f9d-5123-43d6-ad52-f518d521014e",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "db1cd505-7a23-48b5-a21b-15e64de0b314",
+    "product_id": "75f32d72-a97a-4f9e-bb54-65a7ce3c8426",
+    "selling_price": "100000",
+    "purchase_price": "90000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "de421430-7bc8-4178-999e-0a666473b3c9",
+    "product_id": "a43ee865-07fc-4694-ad0a-caa0e6703561",
+    "selling_price": "105000000",
+    "purchase_price": "90000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "67e6a90f-0025-475a-8928-b624b57a83f2",
+    "product_id": "b4b53f69-e4cd-4cc9-9a17-b31499da8a00",
+    "selling_price": "105000000",
+    "purchase_price": "90000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e3d46627-0c51-4d78-a056-59517d9629d3",
+    "product_id": "80f9b570-1bfd-49d8-9778-d3d5fc74ff04",
+    "selling_price": "105000000",
+    "purchase_price": "90000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e623d5ec-ba43-4313-8ffc-a36e32137ef1",
+    "product_id": "83528f05-34f0-423c-9c72-8558156cd42e",
+    "selling_price": "105000000",
+    "purchase_price": "90000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2d913bbb-5d0b-42d2-a5a6-ccfb3598ded1",
+    "product_id": "deef07bb-1193-4973-bd25-093f2de298ec",
+    "selling_price": "105000000",
+    "purchase_price": "90000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "712fab1f-0d00-4a1d-b808-f6b6c8d3a9b6",
+    "product_id": "3fef7fc8-52f4-4e11-b454-c5916f1bcfcf",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "29ea5470-b2cc-459a-a784-263a4f0f3d3e",
+    "product_id": "0c7576e1-838d-472d-bfa7-c0cfb8a169f8",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1e459afb-4e20-4023-b5e3-6e7ef2d5028a",
+    "product_id": "ba94a7b1-c8b2-4331-b444-9390e64b7cef",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2fa7f7e6-709f-4cd8-b59d-c4266b19a71d",
+    "product_id": "78b0c048-0e3f-4b62-aff2-2015d9ca1cc8",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a199d5cf-eefd-471a-8570-23329212521e",
+    "product_id": "209b83bb-69db-4c46-ad3a-701f6a4cd5a3",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b7881681-8ca5-42fb-8f42-dec39c6abaad",
+    "product_id": "5f5b6315-16ad-4bd6-9089-1139f669929e",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "255d723e-5429-4b0a-91a1-f20636a36b7d",
+    "product_id": "39d115f7-71f7-4269-be34-9c10379ff7c6",
+    "selling_price": "75000000",
+    "purchase_price": "60000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "543e3d05-a4c9-4191-baf4-5bddd41f6dd3",
+    "product_id": "1e278a6b-f4c2-4bfd-9b69-1bb1c4049730",
+    "selling_price": "75000000",
+    "purchase_price": "60000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3cb21ae3-d587-4f52-ac84-c3ebae3e53f3",
+    "product_id": "69950a39-90bf-43bb-b117-a0ad5fd230b9",
+    "selling_price": "75000000",
+    "purchase_price": "60000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fd3e1ff6-d284-4c0b-88d8-0417d8704ab9",
+    "product_id": "87bd373c-ff9d-4ccd-90b1-a56011c07c30",
+    "selling_price": "85000000",
+    "purchase_price": "70000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1343b683-aaf3-4823-8c80-7947268fe771",
+    "product_id": "aacfac05-9ec2-45ab-933b-966710f8f1a6",
+    "selling_price": "85000000",
+    "purchase_price": "70000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "997f1fac-3eda-4504-88f2-fc7fd5459281",
+    "product_id": "1c057b00-4e5d-412e-93eb-9edb5efe8cfb",
+    "selling_price": "85000000",
+    "purchase_price": "70000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "472bdf65-b407-47e5-8b21-a2393f0f8628",
+    "product_id": "85fa88e6-65eb-4617-9f89-3aed382538bb",
+    "selling_price": "85000000",
+    "purchase_price": "70000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "19e49b8a-d847-4a13-bb5c-e6834a87f028",
+    "product_id": "d75e3cd8-4e3b-4b18-ab7b-9338c622ed52",
+    "selling_price": "80000000",
+    "purchase_price": "65000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2bd74e26-c8b2-45e4-902b-c7e1f707b81b",
+    "product_id": "35266b2c-4ce7-466b-8232-d4aa5623676d",
+    "selling_price": "80000000",
+    "purchase_price": "65000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "dbb0317e-1454-4836-889b-99cdeb2939dc",
+    "product_id": "aa61b830-67c2-4cf5-95b4-2d67cb65dc4c",
+    "selling_price": "80000000",
+    "purchase_price": "65000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3eebe404-04d0-4054-ae83-b101a89bb321",
+    "product_id": "d93658f0-6d78-46ad-abd2-56eef0cd584a",
+    "selling_price": "125000000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7539112c-8849-4f38-a15e-12e488c03f62",
+    "product_id": "3b8d02b0-4609-4efe-ab99-3c38326b7234",
+    "selling_price": "120000000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8721140f-d0bb-49c9-bc84-b9cfe3aa73c2",
+    "product_id": "15430596-2236-4e10-aa6a-6cd30a241f88",
+    "selling_price": "120000000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e4fe31b7-9fcb-4169-a5ae-f37bdf0dd702",
+    "product_id": "d8329c85-a693-4c1d-b3ce-f9ec44fac2b0",
+    "selling_price": "115000000",
+    "purchase_price": "100000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ad066c08-6bfd-4945-b784-1a2c5871b6e6",
+    "product_id": "480f2cb1-9ff4-417a-87c2-63ed4e5f2fba",
+    "selling_price": "125000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5e175d3c-0b85-4c23-8a29-2d14dbe1ed37",
+    "product_id": "635eb028-fc50-46a5-b004-226fe9635b0e",
+    "selling_price": "115000000",
+    "purchase_price": "100000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c74ffd8e-1c48-4a13-9553-f15d48697984",
+    "product_id": "2c3af709-10c8-4ef1-8979-314ec7428288",
+    "selling_price": "115000000",
+    "purchase_price": "100000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "53ace495-268b-4093-a62c-ab220ae6fa5c",
+    "product_id": "5c897d21-f348-4e67-8308-f846dc4f1b0e",
+    "selling_price": "115000000",
+    "purchase_price": "100000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8866b2b8-ead2-40e6-af82-b3f0259efd7c",
+    "product_id": "89db5a58-c67e-48a6-9694-139c38b4811a",
+    "selling_price": "115000000",
+    "purchase_price": "100000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "172808de-2158-48b8-902a-b691ca29650e",
+    "product_id": "496277d4-3b28-427d-9003-cc9cc7462da3",
+    "selling_price": "120000000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "76cc1bb2-ee23-4fc4-8261-f928abd1cc96",
+    "product_id": "cd660ab0-123e-48d5-9ef7-76d0091ab408",
+    "selling_price": "120000000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d19c123e-e7f1-4b08-9bb5-8aea162ef6f2",
+    "product_id": "704a846f-5f95-4e60-a135-08371d6a15d3",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2b0e39aa-faee-480a-a418-017fe4bbc94a",
+    "product_id": "228cdf97-aa4a-4419-b93c-882662ad490b",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "78984773-5ff4-457b-aa52-ebf7c58301bc",
+    "product_id": "1881d763-d9e1-4e37-ae1f-bdf7167b303d",
+    "selling_price": "95000000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1fbdafde-79ab-44ef-836f-3f2e6ac3f527",
+    "product_id": "227ddb35-0f70-4746-ad5c-fd052d18411e",
+    "selling_price": "95000000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "00d8edb4-9382-4c69-a33c-45e9ad60edd7",
+    "product_id": "81ea3c06-4cb9-4ca2-8289-49c81fac876e",
+    "selling_price": "95000000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "27ab3aca-32fc-496d-9571-008094c715da",
+    "product_id": "fd3ca292-976b-42c6-b798-51d201b595d4",
+    "selling_price": "95000000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7c1f5cac-ff53-4569-bd0b-46a121b7e83e",
+    "product_id": "aad01494-7f97-4145-b306-c5338a4d33ca",
+    "selling_price": "100000000",
+    "purchase_price": "90000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7d77ac14-4dd1-472e-b7c7-b4108b998b28",
+    "product_id": "272aaef2-e261-4a16-a6d7-adf30eac9381",
+    "selling_price": "95000000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d9be6a4e-db3c-4939-9b50-07185f502c67",
+    "product_id": "1177dc3a-e087-4001-9ebc-93052457f089",
+    "selling_price": "95000000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "26bc60f4-a924-4a4e-aee5-646d481ac43f",
+    "product_id": "fc0542eb-1f14-44c6-8f5e-4c5719f98969",
+    "selling_price": "110000000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3d5fdbaf-27e7-4061-818f-489d13e31e93",
+    "product_id": "103d620f-5ff3-4651-9d78-35f6d6a180e6",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d5aec3f9-7667-4b21-a6e7-1cc1a18b2d77",
+    "product_id": "38f24093-b7ef-4bd3-ae70-af6edb36da2d",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "542a4d6b-4a5c-4ac1-ab28-5e141cabf1d7",
+    "product_id": "6e1f301d-6fd9-472b-bf56-a730afe12358",
+    "selling_price": "135000000",
+    "purchase_price": "120000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "37da5475-74dd-46a1-b80d-b336088940f2",
+    "product_id": "44cb1799-7884-44ba-895c-154e5ae14587",
+    "selling_price": "95000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b82128e2-dfe2-47ee-ab5e-0d62621b9bd1",
+    "product_id": "efb4664c-5062-4742-8880-ebfb0fdda8a9",
+    "selling_price": "125000000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4fa81019-a4f1-47f2-a0aa-cd91d01abad5",
+    "product_id": "3f0253f5-e400-4a6d-8221-11e2c16a0900",
+    "selling_price": "125000000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e736f291-3ad4-441f-9650-562db4128f80",
+    "product_id": "b9621f62-e935-47b1-9a7e-4eac883f0b20",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "63066d8f-ca82-4be1-a576-a0b186230c4c",
+    "product_id": "9b417eba-e884-42de-b31b-7fa4f70f4382",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e50843b8-80dc-4062-8e5f-77b12fc5e99b",
+    "product_id": "fb00ee97-44bc-4f6c-9004-def2b0a51a49",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6ac2e501-9714-4a07-aa2d-56433181f3c7",
+    "product_id": "dbd62666-9109-40d0-9fe1-de49bf2f6235",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "041ace07-d8ec-4c4d-a3ad-da3929650be7",
+    "product_id": "8ec5a928-7b4c-4219-a32b-b4faae421505",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1e7c396c-aee3-41ff-bb10-22c3bd955ba9",
+    "product_id": "67a7a2a3-d6bd-4fb7-a4db-367265ede98e",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f5e23a0c-3909-4f41-a8c2-1bda30498178",
+    "product_id": "9708b51f-1673-486b-aca4-37bc83d8358b",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3b9894e3-e7ff-495e-80de-9d63008e4d74",
+    "product_id": "f24c722a-e66a-44d6-a4af-6dfe3c0e1ceb",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "084308b5-4a5e-4cec-aad6-e1a2f91bc009",
+    "product_id": "187be5ec-4099-4a69-8dfe-b4f8693bd871",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "472d87f2-8b9f-4749-b0a2-20fad6588009",
+    "product_id": "ed056892-d7b7-48db-b942-330eaf6e30f1",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "609ee0fd-e083-4058-8ac6-66ee8817f4d7",
+    "product_id": "544a16d9-8e7b-48af-85aa-836a3250f69e",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "74127c22-8f79-4c80-8acd-429b08adba39",
+    "product_id": "2a4347e8-296b-497e-83f7-4150eb42e5a7",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8cba70d7-7e1e-4fb9-8dc0-2dc06848ff36",
+    "product_id": "1861ede1-787f-474c-a9de-603a6322d5bc",
+    "selling_price": "100000000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a4d1d434-385e-4547-84f5-db2812aeecdf",
+    "product_id": "df002971-f8a3-4b2f-81a8-add75b802ae4",
+    "selling_price": "100000000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c1ea6c64-c769-482d-93cd-b9d77d86573c",
+    "product_id": "ae53c645-8905-4ba7-8cff-903f7241451d",
+    "selling_price": "100000000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8020dd4f-7ad2-4de6-bc42-afac03a8ccb4",
+    "product_id": "6bf4bafc-c322-4312-8f5f-706475ea4c18",
+    "selling_price": "100000000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "345f5894-60a9-4f43-9d84-d8ccc5cc3a62",
+    "product_id": "5687bfd7-3bc6-4bc9-a64f-624114ef6143",
+    "selling_price": "135000000",
+    "purchase_price": "120000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4ae04a5b-3c0e-4db7-9e48-9dbcebeffd94",
+    "product_id": "19978e5e-1a30-4927-bd19-af2eed06a33a",
+    "selling_price": "95000000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "474bd1dd-815c-4df6-ac7b-0f2b0fd849c4",
+    "product_id": "3b8a8135-43d3-4133-aab4-5061175b1477",
+    "selling_price": "95000000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4af65784-6f77-4eac-88ee-229c14c31ef4",
+    "product_id": "b114ab64-f888-4650-8d91-7cc94e1060da",
+    "selling_price": "95000000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f68d0e02-f4a3-4f1d-aa61-753ace6ecf9d",
+    "product_id": "c870a04d-1a8d-4d4a-af80-ba1b6248c362",
+    "selling_price": "120000000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "32c580ad-be85-49d7-b34d-0f7c3f1c0570",
+    "product_id": "ac0d6ba3-9a00-4977-a039-0f20749da874",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e0cfe7c8-e5f7-4535-9917-2465a1261e45",
+    "product_id": "54960913-0711-484d-ba39-74c2566c852f",
+    "selling_price": "120000000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "91c5f76a-0e05-46d5-9fef-2e6a6770389a",
+    "product_id": "c141b3b6-690b-409f-b675-82ac47516ea5",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ff96e9e2-f991-4e7f-89e3-d1f611a6e101",
+    "product_id": "abdd49fc-ea96-46e3-9b02-b4e024853bbd",
+    "selling_price": "125000000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c622592c-d95d-4747-abcc-591f8922dc82",
+    "product_id": "5a66042c-a516-40c9-9a33-c9cedeec133d",
+    "selling_price": "135000000",
+    "purchase_price": "120000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c0487489-45f5-4352-9558-07d599750aa1",
+    "product_id": "c3e5ef27-f41a-40b8-99fb-1e97575a6888",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bd48bb3b-a196-429d-ae69-e66d24f2cff5",
+    "product_id": "5f21dfd8-1d81-48eb-abb0-2255e33dc052",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "eca017e2-1a58-4174-808b-509d0b40c883",
+    "product_id": "7d1127b7-3a50-43e2-ac8d-add172844bd3",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a32d0b2c-8397-4a7f-8117-49cecbe40791",
+    "product_id": "17e7b2f3-c986-4db8-bd36-b2d0ab1a305c",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f1383fc4-c191-43eb-9aad-e02562923899",
+    "product_id": "55cd33dc-f83a-40ff-913d-f2760c2f6e5e",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6eb88930-cfb0-4443-8ff7-73ad26359334",
+    "product_id": "76487a90-9d32-4f63-8f0a-36db8f2d521a",
+    "selling_price": "130000000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fda6b9af-eb34-49bf-92a4-7bcd7389cd92",
+    "product_id": "e360d91b-5d8d-48eb-8392-aaa5951a6e8f",
+    "selling_price": "115000",
+    "purchase_price": "100000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1168155e-92b5-49f0-b8cc-91fe8e42a4eb",
+    "product_id": "7f6553c3-7a8e-4cb6-a9fe-53a5c0548c01",
+    "selling_price": "120000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "70562926-c607-44db-a727-4f2897576107",
+    "product_id": "aeeeb4fd-e1e3-415c-956f-0fb2a5e4f670",
+    "selling_price": "120000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "14223104-aa73-4a5e-985e-5b8f35db849a",
+    "product_id": "1bece55d-0213-4ce5-b0bb-acb06e38c65d",
+    "selling_price": "120000",
+    "purchase_price": "105000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c64ed477-8b77-47bb-8a51-6de61631c371",
+    "product_id": "608242f7-7c96-422b-a6bc-a246a5a478f0",
+    "selling_price": "125000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3b709e20-3b28-49bc-8328-c1e0a521ab8d",
+    "product_id": "19556af1-c9b3-49d8-8a36-6e307c5811a8",
+    "selling_price": "125000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6cfef5b8-8f4c-4f30-86d1-78b0e6e99956",
+    "product_id": "4f9e53d9-4263-4a2f-97d9-7831c9d42888",
+    "selling_price": "125000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2a8cc071-4a12-4b0b-bf46-30039bdafbf0",
+    "product_id": "2204d21a-26d5-4347-958f-24ec2470caac",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a953d2a7-c149-4106-b5df-338c44587d90",
+    "product_id": "9fc12684-1000-4b2c-9d4c-ae743e3ac6a0",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8d58c60d-bd13-4f28-8557-b507b0bf3911",
+    "product_id": "b29a2c22-73e9-4001-a29a-024f0fb3122b",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "9c135e23-2088-4a3b-b4b0-85b05b78c83d",
+    "product_id": "d352ce83-69ff-4d35-bd93-166eb9d70201",
+    "selling_price": "130000",
+    "purchase_price": "115000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1c1e8e4d-0abb-4a19-8628-2f76e90c000f",
+    "product_id": "26afe942-a4e8-4c2b-8721-d68645def7e6",
+    "selling_price": "110000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a9ba1de8-ec24-4b51-867e-d44ac85c5a35",
+    "product_id": "14787691-2286-4149-a1bd-8a81d629bbc9",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "68f3617e-560a-40ff-a073-17eee6fd6392",
+    "product_id": "888e7e17-869c-49b2-a5b8-0944ef0b0fc6",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0421ed64-baef-4bb5-9d1d-113543254d7d",
+    "product_id": "c6e54444-e116-4d09-bc4a-a58f080de008",
+    "selling_price": "95000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "abc83c9f-3cca-4bf6-b877-81972c334ccb",
+    "product_id": "c09b4ad5-2b00-4d33-8049-215ddc41e06a",
+    "selling_price": "95000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0ec7e9f3-12ad-4c59-88af-6f42bfcf1f91",
+    "product_id": "8c2fce7b-fbdf-4204-84db-f757b526555f",
+    "selling_price": "85000",
+    "purchase_price": "70000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f11a62d3-6de9-4c3c-93be-e0ed989a00ed",
+    "product_id": "d8942094-b0bb-414f-964c-72a1fcd2775c",
+    "selling_price": "85000",
+    "purchase_price": "70000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "38fb7302-2c2b-4402-944d-44960a76b069",
+    "product_id": "1b59379e-a70e-4b99-a74e-b53e8683755f",
+    "selling_price": "95000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0e649929-de53-4f6e-a2b4-96b9fcfa4e38",
+    "product_id": "e59ab826-6f7e-41bb-bfff-6c3339b6f929",
+    "selling_price": "80000",
+    "purchase_price": "75000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c9003b13-58ea-4832-9fb6-43ec455f408c",
+    "product_id": "f586f6ce-3dec-411b-8652-16020bd90d9b",
+    "selling_price": "120000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f2a03c23-ac6e-4b8f-a044-03d86c11573a",
+    "product_id": "c5091f35-38d6-4ac2-8256-603c1c6de425",
+    "selling_price": "130000",
+    "purchase_price": "120000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "29bf10bd-3c92-4e8c-bb83-9d574cb307a2",
+    "product_id": "1eaff007-7728-43ba-90a8-f7a7452a64eb",
+    "selling_price": "130000",
+    "purchase_price": "120000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b47d5566-06c9-4aef-ba64-bc6141d47faa",
+    "product_id": "25804823-6ae8-4c05-882e-5610d29e97c1",
+    "selling_price": "130000",
+    "purchase_price": "120000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "92d46d46-be76-46ae-b7dd-603391ca7ad4",
+    "product_id": "68a19f0c-2198-4d47-8c84-a2c16af163b0",
+    "selling_price": "120000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c81f578a-7de6-40f3-843c-da995d14cfbe",
+    "product_id": "98f187ad-e3d0-4c50-b5bf-77c400ba417b",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3feb22ad-1b5d-4eb7-911e-809b56a71603",
+    "product_id": "bd54b5e3-ce2e-4d01-a92e-f286d0ac7733",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "70d96c00-57f0-4720-aa26-951b00dd1f4d",
+    "product_id": "0ae1ffaf-89b7-494d-b76e-c449cb87e448",
+    "selling_price": "70000",
+    "purchase_price": "65000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "71b9b36e-fe04-4da7-a222-eda57913e7cb",
+    "product_id": "5f503cf9-6df0-4a67-b506-35d8966ae1ab",
+    "selling_price": "85000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fd31716a-f931-4cde-b20a-acbb66846166",
+    "product_id": "ffb04c6f-7ed3-4fe1-a256-cb2d248d1944",
+    "selling_price": "85000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e0c4198f-5c94-4bf7-ac48-b99b131777f7",
+    "product_id": "ccccb345-803a-4bf6-a0df-38328930c0c7",
+    "selling_price": "85000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "96ef8121-a155-43a8-9966-4591c639ec70",
+    "product_id": "b0f585e9-335a-4ba0-bfb5-c97b42b8b5b1",
+    "selling_price": "85000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bd2c7c12-2162-48e6-930d-ebc2bbc606fb",
+    "product_id": "0a64d8a7-8f35-48fe-b731-f1c9f953e9d6",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "09ac67d4-61b7-4c94-96f6-b3ab1834c810",
+    "product_id": "a5682575-2420-415b-860a-f974be61487f",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d7ae1dda-288e-4c89-942e-b603785a48b8",
+    "product_id": "ae8a0360-8048-4112-8175-30e038a89150",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "30c8b332-e1b3-4ff8-bf3c-40c951839a6b",
+    "product_id": "d5e81485-1b30-4862-aa81-710efa91d66e",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "765c1883-20fc-4248-b67c-813d96227563",
+    "product_id": "d526f83b-143d-4e12-9e76-46168299be1e",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c623fc66-727f-4ec0-b5dd-f1ff86167786",
+    "product_id": "3cb48c4d-35da-4973-9158-d6e8b5ed5c22",
+    "selling_price": "90000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "592ff1a5-475f-4253-9d51-6974ac04aca3",
+    "product_id": "f43f3748-2a3a-42c4-baad-96f9d691203e",
+    "selling_price": "85000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5df1191f-c419-4882-a4d7-02c64a010813",
+    "product_id": "04a6b5a2-da25-4d41-b96c-48e562e4a40e",
+    "selling_price": "85000",
+    "purchase_price": "80000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "626edd0b-2b3b-4d50-8791-68f689818490",
+    "product_id": "09fc3ef2-ca7c-4b1e-864d-ee18aa3f803b",
+    "selling_price": "200000",
+    "purchase_price": "170000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6fb8c9ee-7be3-4a08-b347-b890083b15dd",
+    "product_id": "0273305c-d5e5-417a-a1aa-d2c33f1460a5",
+    "selling_price": "290000",
+    "purchase_price": "260000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c1ec2250-8e95-4653-938f-72f5587d62fa",
+    "product_id": "d6f3fbfe-40fc-4fe8-8b60-67ba8e2014a0",
+    "selling_price": "260000",
+    "purchase_price": "240000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "22f648ee-0204-4e61-9c47-c479dd5efa09",
+    "product_id": "565f4e87-10a1-4df9-b2d7-649c0c156adf",
+    "selling_price": "170000",
+    "purchase_price": "135000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ec680848-8dff-4b24-804a-c387c413ad6b",
+    "product_id": "aa9ffc33-a140-4667-98aa-9abd6a8d6b22",
+    "selling_price": "170000",
+    "purchase_price": "135000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6299a19b-bd6b-4df8-81e4-8ee245ccd8dd",
+    "product_id": "bb6bf5ec-0e74-4cc4-86d8-1d2a5cd6a177",
+    "selling_price": "180000",
+    "purchase_price": "140000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "35b00225-feca-4994-a30b-a67089edf3e8",
+    "product_id": "e34745bf-b777-457a-be2f-33b997aa1e67",
+    "selling_price": "240000",
+    "purchase_price": "210000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3b4afa87-6664-4a6f-9b68-317f337a20c5",
+    "product_id": "589bdbba-0fa8-4468-afc4-67421c6d9aaa",
+    "selling_price": "300000",
+    "purchase_price": "270000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "68827385-a2c8-4ae7-82e9-8264ae0959e4",
+    "product_id": "c536539b-884a-43fe-a878-f98d81dcd611",
+    "selling_price": "310000",
+    "purchase_price": "280000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a24aa6c5-97ee-4f19-bca3-3a6e363e26cd",
+    "product_id": "01370d46-3860-4c3e-a4d0-074ff372a4c1",
+    "selling_price": "310000",
+    "purchase_price": "280000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8d192a68-fe9d-4d94-9df3-f55f6fe7bed9",
+    "product_id": "85d6d86c-dcf0-4116-acab-0db1460c5159",
+    "selling_price": "160000",
+    "purchase_price": "140000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3fbe8be5-893d-4c37-939d-529096cf5a9e",
+    "product_id": "b9d4c178-a03a-4971-a2fb-8b5bc62b51d5",
+    "selling_price": "170000",
+    "purchase_price": "150000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "41df2ff8-4b32-4a28-8b3c-ad41532574ab",
+    "product_id": "1381b897-091b-44c3-bbfe-dc0055de763e",
+    "selling_price": "110000",
+    "purchase_price": "900000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4b12de6c-76e2-4dff-acb5-272445593d8f",
+    "product_id": "cb702270-21ae-4c51-9378-e79736697533",
+    "selling_price": "370000",
+    "purchase_price": "320000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "04153ad0-c5a7-469a-9898-981706791994",
+    "product_id": "155caa36-dfcf-49c3-b882-424c8fe3a66c",
+    "selling_price": "500000",
+    "purchase_price": "465000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7389285b-d311-4da3-8954-587d36cca08c",
+    "product_id": "161f8ab4-f07d-491b-b3cc-29ec19668e0f",
+    "selling_price": "635000",
+    "purchase_price": "585000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d6724761-d7b9-4b92-a4fe-e1fb642b6512",
+    "product_id": "6a7ce3d2-9f26-420d-b932-bdee010a2480",
+    "selling_price": "560000",
+    "purchase_price": "510000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "698dc108-1e14-49a2-8bb1-4790dd12f28e",
+    "product_id": "51e9a81d-79dc-4860-a85c-277fe361637a",
+    "selling_price": "330000",
+    "purchase_price": "300000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "df3bb59c-17a1-4e6e-8c98-94077de5ec4b",
+    "product_id": "5bce6cfe-bc4a-44ae-bd43-0d5377ceb6f7",
+    "selling_price": "255000",
+    "purchase_price": "220000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1dbd660b-2677-49b2-b62b-4f8919a95bfb",
+    "product_id": "60a0de0d-8ccb-41fc-bc99-5edbc5fd54bc",
+    "selling_price": "175000",
+    "purchase_price": "155000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "92a19247-f89a-4a63-805a-0787b6e298c5",
+    "product_id": "36dc659f-e238-4102-8997-d621696ed672",
+    "selling_price": "300000",
+    "purchase_price": "260000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8e8d87ba-44b8-43e4-8235-38647af0a376",
+    "product_id": "479b0ca9-f5c9-485e-9409-537bec470812",
+    "selling_price": "130000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b845ef09-d444-4d49-a096-467df92283c1",
+    "product_id": "79fe2c0c-c0c3-4a01-989d-1c738f6a5316",
+    "selling_price": "130000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "386c8fe4-a1bc-4b5a-8fff-560131f7331f",
+    "product_id": "d8fc4a2e-29fc-4f18-a8f6-881511380257",
+    "selling_price": "130000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "94d5a64b-11f1-4e01-9c1c-81c3e25a60e6",
+    "product_id": "a42a3268-ea55-4b72-b527-194f4b249db0",
+    "selling_price": "130000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2dd9fd8a-5785-4dcd-a601-d2875f128ed6",
+    "product_id": "ceb33b9c-d771-4a18-9e87-ece06c151816",
+    "selling_price": "130000",
+    "purchase_price": "110000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fa54b3ec-0cad-4756-a2ec-c7975cd9e775",
+    "product_id": "fc2a8c63-973d-4e4f-9239-4318050abbd4",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "31a46185-2d94-42b1-9293-94ee35241c5e",
+    "product_id": "7382adbf-f8c8-457c-8027-176881d6119e",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1ab573a8-f34b-41e6-b9b3-a7595a040ec5",
+    "product_id": "dc8413b1-7d56-445e-979a-f6f2af8a8394",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f1937361-7be3-4a1d-9084-c677ca3c6414",
+    "product_id": "8fd2cbbe-5dc0-4094-ac7e-bf44e2b670f9",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bb8c6c28-25ef-4d8d-b138-7c8ae3aca24e",
+    "product_id": "2273f093-3416-4d97-b822-451060c19275",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "dc5af6a5-89ef-424d-9dad-855f3d97827a",
+    "product_id": "6ef496a5-d2ec-43bd-aa74-db58b21713d6",
+    "selling_price": "40000",
+    "purchase_price": "35000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fa10e752-a6c2-49fb-87ba-334dc9b6ce0d",
+    "product_id": "1a0c4678-4de2-4a39-821d-8c00759e3604",
+    "selling_price": "45000",
+    "purchase_price": "40000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d504a10a-cdd2-4917-8070-f479264914dc",
+    "product_id": "40a62249-3fdb-4468-ac2a-3eba1871c76d",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "32bd2d90-fbb9-4923-a54c-b9eb2d5b8e97",
+    "product_id": "a00466ee-128e-4981-b56b-75db50174f18",
+    "selling_price": "40000",
+    "purchase_price": "35000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b902fc47-6f4f-4dcb-b6a9-0cf278f7ae6c",
+    "product_id": "9a408bc0-89cf-438e-baed-268a70704d8d",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "eec55560-1c54-4d18-bce5-7865f899eb29",
+    "product_id": "1557bab9-a0ed-44ba-82f3-61c1a8337d4d",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "eb59b8f1-aa18-495f-ac12-b73ccc86a23c",
+    "product_id": "f2b33f06-e046-4e8f-954a-d331d7607115",
+    "selling_price": "40000",
+    "purchase_price": "35000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "654375f3-8e2a-4e10-b2cf-53f8b86dc642",
+    "product_id": "55b57b71-76fd-4dc2-9dc5-cf65512ece1a",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "33716b80-c9f3-450f-b175-c9f55abce4e3",
+    "product_id": "b0411a67-1e1f-4e75-b83e-ff30805750ff",
+    "selling_price": "40000",
+    "purchase_price": "35000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "58720268-a484-476b-a376-6e4456bb8eca",
+    "product_id": "fe07ef24-4806-4d5c-aac0-ed5a274091ed",
+    "selling_price": "35000",
+    "purchase_price": "25000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6566f8eb-7fff-405b-a46f-cb24a5da95c5",
+    "product_id": "78b9ad4b-23b0-4388-a9d3-b35f8a3c4f6f",
+    "selling_price": "40000",
+    "purchase_price": "35000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cb175499-0581-4157-9045-9f9f964595fb",
+    "product_id": "45f9992d-7fbd-4b73-972f-46eafb7f503a",
+    "selling_price": "60000",
+    "purchase_price": "50000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "30ac4740-7dbb-4650-abcc-ded19f7a3609",
+    "product_id": "73f24af5-b4f0-4bd2-9e00-dff4650f3305",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6b49e4e6-b3e8-4dba-a567-ef8e679de8bc",
+    "product_id": "3d0943a9-4448-4990-bdff-4f36d029bc1b",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1ead1142-5e24-48b6-98f1-5ebaf0021d59",
+    "product_id": "4668019a-cd87-4d0d-b2be-20536fe7ad64",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "09f3687a-0f72-40a2-8cd2-73e25228e06a",
+    "product_id": "722c9434-0e63-4168-8695-d02413807c60",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "dd632795-6239-491e-b272-58842592cc29",
+    "product_id": "6d0088bb-329d-4d40-9550-fbb9be61cc87",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a70a8c9d-dbf1-414a-ab19-b8abd7ca9d7c",
+    "product_id": "0d6a3ceb-3285-4a5e-86ec-e1bb5d349a40",
+    "selling_price": "40000",
+    "purchase_price": "31.5000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5d1069a7-a92e-4902-b4fc-a066feb83bb6",
+    "product_id": "c0eca57a-ad28-458e-9260-f74a95886739",
+    "selling_price": "35000",
+    "purchase_price": "28.75000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b43b4602-146d-42d8-bd7b-cd04cb7ea176",
+    "product_id": "6acd9b15-7e76-4d45-9ea1-fb74a2df7d75",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "abb0a899-8547-4486-86a8-bf5045e62b28",
+    "product_id": "5417413a-30a3-493b-868c-0605d738b630",
+    "selling_price": "30000",
+    "purchase_price": "25000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bcf60def-d581-4a75-bf65-776c3a511c39",
+    "product_id": "7ba5c37b-5df0-41b6-9b25-468e955e773a",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6fe758e4-e757-4d77-acba-5095eb74149f",
+    "product_id": "d2368b3a-7f58-4180-96d4-6915ada720f0",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8d915f3f-4d4d-4696-90da-cd26d58ab4ed",
+    "product_id": "96ae6546-40a2-4b13-bbd8-656e35796c16",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8a93b159-0208-4a0c-adfa-58c57dcffb68",
+    "product_id": "a61a5010-c79a-4b0a-a2b3-0cbec970afe8",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "21348b8b-e5bc-40c8-b272-21c92aa4945f",
+    "product_id": "fde5a630-458c-4351-b5d6-2c89f9ed2986",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1f2b8f8e-d85a-477c-bbf4-3861c01d1759",
+    "product_id": "5e25e5e0-bbf1-42e6-b2d4-39a7d15958cd",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "54e92a45-d9a5-443c-a899-3fc22be19119",
+    "product_id": "07bfce8e-f6d7-4972-8d76-aad5c7724e14",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6e2ce93b-15c8-42c6-8631-c94bc2f7d0ac",
+    "product_id": "5869fcdc-ffae-4ffe-9ed5-aff7696a37dd",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cb6fd4d5-da58-425a-9b84-65dc20e9610d",
+    "product_id": "1c221a1f-15fc-454f-baf2-44a3f816d564",
+    "selling_price": "35000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3de660b6-12c7-4b9c-a938-8386d04a7322",
+    "product_id": "85ca42cb-f9ab-4969-b460-14afa5f22e57",
+    "selling_price": "330000",
+    "purchase_price": "300000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "36623f7f-bb29-412c-afb3-0eadb165375c",
+    "product_id": "95ccb1c0-16f7-483a-804c-277400d364a0",
+    "selling_price": "360000",
+    "purchase_price": "325000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "33dc7b86-8503-41e6-8def-464f96e59e35",
+    "product_id": "7239467e-e186-41f5-a739-ad4f4df23fe3",
+    "selling_price": "360000",
+    "purchase_price": "320000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bd52974f-3618-4166-800c-1b2699c18fa5",
+    "product_id": "ac459a65-de6e-4d76-a131-0bab36bb151c",
+    "selling_price": "35000",
+    "purchase_price": "20000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3918e7fa-55c8-4f93-8527-f79342e64169",
+    "product_id": "da10adc5-e560-468e-af6d-9ed2fd40d806",
+    "selling_price": "50000",
+    "purchase_price": "30000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c8df2470-009a-49b4-8ed6-26da4118c7cd",
+    "product_id": "8e8ab3ba-4c17-4740-949f-43abe9a5a1db",
+    "selling_price": "55000",
+    "purchase_price": "35000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f39a81da-c362-41a7-b0a9-e1ca108d6880",
+    "product_id": "5a05f7f6-dfb6-4e0c-ae7a-1f6abb9a7932",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "036a8e1d-9b77-4941-96b4-cb69c8633262",
+    "product_id": "5c12e4a8-5c55-4d3d-afa6-b3b9af3bf0db",
+    "selling_price": "110000",
+    "purchase_price": "95000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "501d6394-98b2-4b19-b126-518164bc760e",
+    "product_id": "933d23d1-008b-465e-831e-d2a9507089d7",
+    "selling_price": "70000",
+    "purchase_price": "40000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3d3ae7d5-4845-40a2-acec-625de271b101",
+    "product_id": "23dfc6c6-aab4-4417-9ab0-b23f3a946098",
+    "selling_price": "30000",
+    "purchase_price": "20000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "64cf7b9f-163d-44cd-9b04-1fd950bbd004",
+    "product_id": "1463e84c-8729-40cd-8f3e-08597e18058d",
+    "selling_price": "30000",
+    "purchase_price": "20000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b28e0769-e0a6-4078-8f5c-4f8c4709c023",
+    "product_id": "66245c9a-6ade-4947-b7e4-f382bc2714a8",
+    "selling_price": "35000",
+    "purchase_price": "25000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "9b17f8bb-fc8a-4725-b12e-2129a5889c9f",
+    "product_id": "026c3a48-f0af-46c2-af7b-34c0cc24b227",
+    "selling_price": "20000",
+    "purchase_price": "10000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5f23185a-0964-48b7-b925-dacbbd4fb98e",
+    "product_id": "71235cb3-8be1-43ba-a87b-b1d644d08118",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "559299d7-29c6-4a6c-af2e-689ea2256cf0",
+    "product_id": "ceb7b720-1231-406d-b99f-dffd5ce8cabc",
+    "selling_price": "80000",
+    "purchase_price": "65000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1a6e1fcd-dd73-444d-96f9-f50be992fe1b",
+    "product_id": "97ca6b76-2fc2-455d-8fbd-7ffb8b4d9f78",
+    "selling_price": "100000",
+    "purchase_price": "85000",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  }
+]
