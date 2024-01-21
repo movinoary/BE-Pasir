@@ -114,7 +114,7 @@ exports.login = async (req, res) => {
       },
     });
 
-    const permission = JSON.parse(role.permission);
+    const permission = role.permission;
 
     const dataToken = {
       id: userExist.id,
@@ -243,7 +243,7 @@ exports.checkAuth = async (req, res) => {
       });
     }
     dataUser = JSON.parse(JSON.stringify(dataUser));
-    const role = JSON.parse(dataUser.role.permission);
+    const role = dataUser.role.permission;
     dataTransaction = JSON.parse(JSON.stringify(dataTransaction));
 
     const transactionIn = dataTransaction.filter((d) => d.type === "IN");

@@ -19,7 +19,7 @@ exports.getUser = async (req, res) => {
 
     data = JSON.parse(JSON.stringify(data));
     const resData = data.map((d) => {
-      const permission = JSON.parse(d.role.permission);
+      const permission = d.role.permission;
 
       return {
         ...d,
