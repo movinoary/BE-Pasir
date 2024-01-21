@@ -28,6 +28,20 @@ module.exports = {
       ],
       {}
     );
+    await queryInterface.bulkInsert(
+      "users",
+      [
+        {
+          id: "6eb5ef7f-2825-49e4-85af-9cf49ef362e2",
+          name: "admin",
+          email: "admin@mail.com",
+          role_id: "345edfe3-ee84-43ae-8016-7e29bbf93a55",
+          password:
+            "$2b$10$5Y6c7pi4PTWXGawD5kQAaeYgCqxYVZvzoT9RwGomb1sc1w1Zi4N8G",
+        },
+      ],
+      {}
+    );
   },
 
   async down(queryInterface, Sequelize) {

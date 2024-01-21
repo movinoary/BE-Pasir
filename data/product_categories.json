@@ -1,0 +1,1689 @@
+[
+  {
+    "id": "a2775833-ea69-4445-8716-981a45f9c426",
+    "product_id": "9e167d15-0621-4dd9-8324-d1cc32647934",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "05b8853b-aac9-46ae-8216-7256671ee8e1",
+    "product_id": "04154ec3-69cd-495e-ba3f-c01976cbaa42",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3abba594-8f84-4698-b892-b9d7ddb0ada0",
+    "product_id": "5c1bc09e-800c-49bb-9d4b-e92fd547ff8d",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3a1a21eb-5662-4818-9954-9059fda0dcd1",
+    "product_id": "552e8413-0f9d-4fc4-b921-ce36fbac8134",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8717a7e1-5102-4501-98f1-d019a6a672b6",
+    "product_id": "31aff1be-bd34-4936-9d2e-9b41b69a258a",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cac233a0-03af-4c8e-927e-cef8fd7cc80c",
+    "product_id": "a782fd60-48b9-475c-a258-0e889b22e0c5",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "66b32430-6ad1-48ae-aa67-fa375f5989c0",
+    "product_id": "dded13e2-42f2-4fe4-9fd7-67a75ae17181",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "51df46ee-8962-4ca5-89f6-a8950a46b534",
+    "product_id": "348f9396-5159-4d06-889e-84b24ff68205",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "418a1f7a-c626-4161-8255-b418e4ccb0ba",
+    "product_id": "3e589591-6f3b-4df8-8c8b-de0cf96aaa3d",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2cdd5021-e1d5-4c97-ab30-5a4d7dfb36cf",
+    "product_id": "791f471b-dfda-4afd-bc1b-5fd223f5a66b",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e2732ad7-b90e-4bf4-bda6-33521aaafe9b",
+    "product_id": "091a245b-2642-41ac-b383-cd52b63e50a6",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e44f7fe3-c7ab-463a-9fb0-913fc6f10579",
+    "product_id": "30084986-75ae-4b27-8ef1-97f7f3bfdd69",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d28a6a7b-a942-4d49-8459-4b2dd3c9d150",
+    "product_id": "64d91a41-2d85-4043-a5d4-bcd5be37d8c0",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "928f9468-5c1e-4b95-987b-fd03c269de2c",
+    "product_id": "e1a24194-1f94-42b0-89e7-4563e3ec3035",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "92813442-2076-4239-b848-763f6a5fbedc",
+    "product_id": "e590d1af-4776-45d9-a26f-465882226f59",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ce0e862d-c238-4a84-a934-6a3b4726992f",
+    "product_id": "2db14326-93a6-4786-8456-03172c399e38",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "129dd479-0350-44f9-8683-669b550d1626",
+    "product_id": "6130840e-73c2-4e89-8d02-b1436802611f",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d512b9a9-6426-4727-8673-715c11bcd540",
+    "product_id": "eb819eb8-5f2f-4e47-afb0-2faadf4580ee",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1c137bb3-1b14-4b56-9d8b-5ebdd857756a",
+    "product_id": "e0d9e3a2-35f2-4f23-bce7-39c0cef15d1e",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8d839bb8-4468-45be-b601-dab28ab5101a",
+    "product_id": "b4a29c3c-258e-4bcb-81b2-f5090d5cebcf",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "9edfa3c6-5ebd-410e-a97b-6f04ea176804",
+    "product_id": "841072cd-ca44-4ad6-868f-f45da3f98dea",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "249c10e1-c5d6-46af-bd8c-2e556b734f55",
+    "product_id": "0cd62dfd-cdaf-4e18-bc9e-7855fdfa4fb6",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "48be66b0-d5e4-403c-a64a-ff66852a1f08",
+    "product_id": "c7ea4dc7-4102-47e1-b69c-fa6c22f112bb",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8496df4c-deb4-400b-a828-3283d57a14a8",
+    "product_id": "91300056-a032-4e0d-8d56-7075a3fbb940",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7fbce44f-e833-4002-867b-edd035386d6f",
+    "product_id": "e9016582-5528-45f9-8cf6-879c950bddac",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "732d71a0-ded1-4ee1-ad18-bc2f2b703f89",
+    "product_id": "3f5a6ff8-e003-424e-9d85-43672ba79836",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "117dab30-f2a5-4b60-a182-ecaf2dbf3be8",
+    "product_id": "61be3a02-00a1-46fe-8198-f505e4d9395b",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1bb5c1a6-9de5-4257-ac7a-2ad48cca9cd6",
+    "product_id": "02f2a1ae-672f-4354-b993-4fccc078a92d",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c603d861-dc20-4f84-bc98-cda8250c055c",
+    "product_id": "68ad5696-c5c9-4473-ac60-4407a36013f1",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "86c55d52-e366-4368-a9e9-b67db7c2bc5d",
+    "product_id": "b932577a-49a5-45fd-9f92-72acadee61b4",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ef35b367-8d6c-4b36-acc2-bc8ad84b8db4",
+    "product_id": "4140bd20-270a-45c6-9048-2282f42c54f8",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0ea9e117-15eb-492a-863b-f92d20441421",
+    "product_id": "4b08dbd9-5cda-4e8d-8520-0dddf4f5b9e0",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5fd7baf2-8f63-4c63-86c6-fcf10a855c52",
+    "product_id": "04062d3a-0bdf-4e92-817c-aaf622a2a405",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d1307af3-30ff-4bfc-ac44-95523f641b6d",
+    "product_id": "bdbb86c6-8368-4304-8409-c810015a5f93",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "55bb8c0e-984e-4e0a-a4ef-3c939aaf90f1",
+    "product_id": "8a7ea043-07c1-4795-880c-d6320558d132",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f976eac8-4694-4471-b04e-b8d512386c10",
+    "product_id": "f12f4581-304b-4946-a1ef-bf441487c8e1",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "64794f6e-18b2-4450-b141-eb3716bb07bd",
+    "product_id": "735edaae-782d-4445-9018-edafaba731a6",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "98c31fda-de7c-4eca-a952-78837cf81e5f",
+    "product_id": "51a7c2c3-cd23-4ecc-811b-1d2066765cfb",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "45974f11-bd24-4982-97c1-d4ebaf68d90b",
+    "product_id": "92c23d3f-d25f-4547-811b-5bc4951ac0fa",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5f86c307-7d03-4a2e-a87c-cac2703e190b",
+    "product_id": "9be717d0-7c9f-44a1-a9ca-5df296d0767e",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8c74d080-75c9-4486-ad20-fe254f5e3c3c",
+    "product_id": "300dc4ba-9562-4963-9a64-463a6e4fdb52",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "177b8e04-a99f-4938-94cb-b7a58410a775",
+    "product_id": "a0b0c224-c809-4f25-a57d-d8e7b027b003",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b9bcfb0c-6d08-4f64-b41a-b49660ef15bc",
+    "product_id": "ba724f9d-5123-43d6-ad52-f518d521014e",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "09f5a6b0-c489-4083-a287-cce4c5f9e1c3",
+    "product_id": "75f32d72-a97a-4f9e-bb54-65a7ce3c8426",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d4e7267d-adc7-4e7d-9d92-2cfa7659e4f3",
+    "product_id": "a43ee865-07fc-4694-ad0a-caa0e6703561",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b08c2de6-fc76-4943-80a4-0e5ee4e40cfc",
+    "product_id": "b4b53f69-e4cd-4cc9-9a17-b31499da8a00",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cb3e0c2a-48e4-4852-b977-2cced0ac12f1",
+    "product_id": "80f9b570-1bfd-49d8-9778-d3d5fc74ff04",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "09c02963-87f7-409d-a59b-a7b041bff051",
+    "product_id": "83528f05-34f0-423c-9c72-8558156cd42e",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "830841aa-41e2-48d9-a58b-1ee5644601e1",
+    "product_id": "deef07bb-1193-4973-bd25-093f2de298ec",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fe0b5b05-21e3-4c31-a3b1-a05a69f03660",
+    "product_id": "3fef7fc8-52f4-4e11-b454-c5916f1bcfcf",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cd11a684-abb7-48c5-8149-9acd55211fff",
+    "product_id": "0c7576e1-838d-472d-bfa7-c0cfb8a169f8",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7fddf1c5-72df-41aa-ac3f-9ca2d78349b5",
+    "product_id": "ba94a7b1-c8b2-4331-b444-9390e64b7cef",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "717d8ac7-fddd-43a4-948b-74b96851449a",
+    "product_id": "78b0c048-0e3f-4b62-aff2-2015d9ca1cc8",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bb1ae427-d2c4-41c6-9d90-1522336806bc",
+    "product_id": "209b83bb-69db-4c46-ad3a-701f6a4cd5a3",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "783f08d4-a293-4a0c-8522-3b4a15c1c717",
+    "product_id": "5f5b6315-16ad-4bd6-9089-1139f669929e",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "9536e233-4565-438e-843f-3e1bfe6d140d",
+    "product_id": "39d115f7-71f7-4269-be34-9c10379ff7c6",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4920a070-7753-48ff-aa90-3fffca8f04bb",
+    "product_id": "1e278a6b-f4c2-4bfd-9b69-1bb1c4049730",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e23cc93a-76ac-4633-a93f-253bd4b6a209",
+    "product_id": "69950a39-90bf-43bb-b117-a0ad5fd230b9",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "10894dd2-7424-42e8-9bbe-628b47c7eef0",
+    "product_id": "87bd373c-ff9d-4ccd-90b1-a56011c07c30",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "eba1dddf-3109-4b49-b72d-76281b6127b7",
+    "product_id": "aacfac05-9ec2-45ab-933b-966710f8f1a6",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "01137c21-6bfd-47b6-91bc-f4c313f69671",
+    "product_id": "1c057b00-4e5d-412e-93eb-9edb5efe8cfb",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1a178452-83e4-4a33-960e-bd284df31608",
+    "product_id": "85fa88e6-65eb-4617-9f89-3aed382538bb",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "60119091-328e-4250-b12e-1565cd4e8cd9",
+    "product_id": "d75e3cd8-4e3b-4b18-ab7b-9338c622ed52",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f1f620f9-28bc-48b3-a6df-6ed95871ad9c",
+    "product_id": "35266b2c-4ce7-466b-8232-d4aa5623676d",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4b89c9fb-d0f0-4469-9e2e-46e435c93880",
+    "product_id": "aa61b830-67c2-4cf5-95b4-2d67cb65dc4c",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "af85c143-1f87-4982-8829-4ca82f646b72",
+    "product_id": "d93658f0-6d78-46ad-abd2-56eef0cd584a",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3cd4422d-be45-4b88-b7c2-d838d78ab8a9",
+    "product_id": "3b8d02b0-4609-4efe-ab99-3c38326b7234",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f64cb7d7-2956-4e2c-8ab0-9b9c9c910323",
+    "product_id": "15430596-2236-4e10-aa6a-6cd30a241f88",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "66033fba-9c9b-425d-a028-ddc2a4d297b7",
+    "product_id": "d8329c85-a693-4c1d-b3ce-f9ec44fac2b0",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a7132fea-a2ac-4269-89c4-ff1878d86b4e",
+    "product_id": "480f2cb1-9ff4-417a-87c2-63ed4e5f2fba",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3c1ff2ba-a03a-44cc-a2d8-b886423d1400",
+    "product_id": "635eb028-fc50-46a5-b004-226fe9635b0e",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "65742452-808a-4e1d-9a5c-0d673eccaf63",
+    "product_id": "2c3af709-10c8-4ef1-8979-314ec7428288",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0860cb42-e6bd-4736-bb88-1f15d1059931",
+    "product_id": "5c897d21-f348-4e67-8308-f846dc4f1b0e",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2403edf8-4ca7-4964-ab1b-5fec58886118",
+    "product_id": "89db5a58-c67e-48a6-9694-139c38b4811a",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "900e5786-4b17-4f10-ad23-c7ecec42378b",
+    "product_id": "496277d4-3b28-427d-9003-cc9cc7462da3",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0f6fc3b5-b210-480d-99f2-6c69608af851",
+    "product_id": "cd660ab0-123e-48d5-9ef7-76d0091ab408",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "598b38de-ea00-4895-a44e-23441098d1b4",
+    "product_id": "704a846f-5f95-4e60-a135-08371d6a15d3",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "db490f50-b88a-4877-9d3f-819a467e4de2",
+    "product_id": "228cdf97-aa4a-4419-b93c-882662ad490b",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2cf90f29-607c-4f46-8192-c2775f7f9ec8",
+    "product_id": "1881d763-d9e1-4e37-ae1f-bdf7167b303d",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4685df15-7c86-4d20-ab32-7f103e6ab7ad",
+    "product_id": "227ddb35-0f70-4746-ad5c-fd052d18411e",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "755b0017-83e1-498d-aaef-990f5165ff31",
+    "product_id": "81ea3c06-4cb9-4ca2-8289-49c81fac876e",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "85eeadf6-63e2-46fe-b336-31ed848b3374",
+    "product_id": "fd3ca292-976b-42c6-b798-51d201b595d4",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8ff404d3-1223-4ec8-9ce6-c287089fc034",
+    "product_id": "aad01494-7f97-4145-b306-c5338a4d33ca",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ca458a0e-268b-44c3-974a-8a4776fce598",
+    "product_id": "272aaef2-e261-4a16-a6d7-adf30eac9381",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "409c1071-5eaf-48db-8fba-368bae928a1f",
+    "product_id": "1177dc3a-e087-4001-9ebc-93052457f089",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "00267405-fad6-4575-b6fe-9ee421446c04",
+    "product_id": "fc0542eb-1f14-44c6-8f5e-4c5719f98969",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "527e3ab1-f249-43b1-ba85-356de57d6597",
+    "product_id": "103d620f-5ff3-4651-9d78-35f6d6a180e6",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "70b92a0c-6059-4844-89f7-5bf8b97ef96b",
+    "product_id": "38f24093-b7ef-4bd3-ae70-af6edb36da2d",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a263279f-1ede-4695-87a0-cf31cbba49e5",
+    "product_id": "6e1f301d-6fd9-472b-bf56-a730afe12358",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c076b54c-8c6e-482b-870b-8ffb2874a0c5",
+    "product_id": "44cb1799-7884-44ba-895c-154e5ae14587",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "afa42ff5-349d-4ca9-890c-d03c62f5766e",
+    "product_id": "efb4664c-5062-4742-8880-ebfb0fdda8a9",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d6238411-6648-4dc3-8136-3762cebb12c4",
+    "product_id": "3f0253f5-e400-4a6d-8221-11e2c16a0900",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "68c6efcc-bcaf-406e-991c-84fc6a1bb75c",
+    "product_id": "b9621f62-e935-47b1-9a7e-4eac883f0b20",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e70ca45e-534d-427b-a20a-1319ae1577eb",
+    "product_id": "9b417eba-e884-42de-b31b-7fa4f70f4382",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a5f984c1-6ec6-4a45-988c-1d39eecb9168",
+    "product_id": "fb00ee97-44bc-4f6c-9004-def2b0a51a49",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "40effe8d-7b83-4da7-aa5a-43e68c036ce0",
+    "product_id": "dbd62666-9109-40d0-9fe1-de49bf2f6235",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d90d0948-5f07-415d-9af4-98afc7dad4e0",
+    "product_id": "8ec5a928-7b4c-4219-a32b-b4faae421505",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "41108221-4cba-4bfd-b9f4-168b4afd5f9e",
+    "product_id": "67a7a2a3-d6bd-4fb7-a4db-367265ede98e",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2ff0b17d-4a96-4398-a551-1004df8e6211",
+    "product_id": "9708b51f-1673-486b-aca4-37bc83d8358b",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "88b010e9-b71f-4f46-8d88-0d3ce3316370",
+    "product_id": "f24c722a-e66a-44d6-a4af-6dfe3c0e1ceb",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "73166a62-9831-4ad1-bbb7-c9082a915d77",
+    "product_id": "187be5ec-4099-4a69-8dfe-b4f8693bd871",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cdb4f67a-8ff3-4f28-86bc-60d79b7ad0d2",
+    "product_id": "ed056892-d7b7-48db-b942-330eaf6e30f1",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "72094acf-489c-45d3-b1e9-fc65764b2029",
+    "product_id": "544a16d9-8e7b-48af-85aa-836a3250f69e",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a1441eb6-6401-424a-8d91-0d4611b0af3d",
+    "product_id": "2a4347e8-296b-497e-83f7-4150eb42e5a7",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d7ffd7a6-610c-483b-aca6-4ff4c2f61a37",
+    "product_id": "1861ede1-787f-474c-a9de-603a6322d5bc",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6cb2eb33-8ef8-487c-889c-17b7a39bb4f9",
+    "product_id": "df002971-f8a3-4b2f-81a8-add75b802ae4",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "58ed2a45-2f7a-4c93-9c3e-a27a6591f694",
+    "product_id": "ae53c645-8905-4ba7-8cff-903f7241451d",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "04a6298c-557c-4a99-b9ba-0b12cede5f01",
+    "product_id": "6bf4bafc-c322-4312-8f5f-706475ea4c18",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "eda2ffda-24d4-4ce0-a4eb-30fb15a89243",
+    "product_id": "5687bfd7-3bc6-4bc9-a64f-624114ef6143",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ac90b440-bdee-48fb-8ff0-7860327d6115",
+    "product_id": "19978e5e-1a30-4927-bd19-af2eed06a33a",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d4c824f6-742b-43a0-b0b7-cd31efb88680",
+    "product_id": "3b8a8135-43d3-4133-aab4-5061175b1477",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4f669bee-dc39-4f60-8205-7dee02ae8e06",
+    "product_id": "b114ab64-f888-4650-8d91-7cc94e1060da",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cb726df4-45aa-4cb6-b470-5abf67b4d342",
+    "product_id": "c870a04d-1a8d-4d4a-af80-ba1b6248c362",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "592d4ede-ae6b-46b7-b614-bc271058d630",
+    "product_id": "ac0d6ba3-9a00-4977-a039-0f20749da874",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2baee8d2-76d3-49bc-85ee-bb26450f1205",
+    "product_id": "54960913-0711-484d-ba39-74c2566c852f",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "99d4dc8a-a25a-45fc-9f16-eb6fc0fdc204",
+    "product_id": "c141b3b6-690b-409f-b675-82ac47516ea5",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c4abd351-7a49-473e-9517-ae8aaabb0046",
+    "product_id": "abdd49fc-ea96-46e3-9b02-b4e024853bbd",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ad610145-1166-491e-aeb4-9e86c9e35752",
+    "product_id": "5a66042c-a516-40c9-9a33-c9cedeec133d",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "371363fd-37a2-4fd1-ba70-1fc9b8a462a0",
+    "product_id": "c3e5ef27-f41a-40b8-99fb-1e97575a6888",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7a286282-7e1c-499f-af2b-687d6ab8de13",
+    "product_id": "5f21dfd8-1d81-48eb-abb0-2255e33dc052",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "664cf572-8023-40be-a78b-34e312bd845a",
+    "product_id": "7d1127b7-3a50-43e2-ac8d-add172844bd3",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c4202a49-59f0-49ad-9a3b-1f15f0fb40af",
+    "product_id": "17e7b2f3-c986-4db8-bd36-b2d0ab1a305c",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "01b0d1a1-fdc0-4308-8ea3-8d3371124a24",
+    "product_id": "55cd33dc-f83a-40ff-913d-f2760c2f6e5e",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "89717a12-04c7-4367-8f4b-80d51e5f5596",
+    "product_id": "76487a90-9d32-4f63-8f0a-36db8f2d521a",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0649ea0d-6be8-484f-83c2-e1206823811f",
+    "product_id": "e360d91b-5d8d-48eb-8392-aaa5951a6e8f",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bc03e9f7-b411-43ff-9ac6-61fa71ca827a",
+    "product_id": "7f6553c3-7a8e-4cb6-a9fe-53a5c0548c01",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1b0a1273-af34-4955-acba-a3063a1fafde",
+    "product_id": "aeeeb4fd-e1e3-415c-956f-0fb2a5e4f670",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8c3e8280-3f3a-477f-9814-02bb14c2a08d",
+    "product_id": "1bece55d-0213-4ce5-b0bb-acb06e38c65d",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e5ed8af0-f83b-46b1-a5e7-3aff1ed89454",
+    "product_id": "608242f7-7c96-422b-a6bc-a246a5a478f0",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "58c35231-dd78-49dc-8f9f-bec50d8f538e",
+    "product_id": "19556af1-c9b3-49d8-8a36-6e307c5811a8",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c01c63da-88a9-49f4-92a3-f06708ff5d7d",
+    "product_id": "4f9e53d9-4263-4a2f-97d9-7831c9d42888",
+    "category_id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4f48fd81-8317-4d96-90be-f05acee25b80",
+    "product_id": "2204d21a-26d5-4347-958f-24ec2470caac",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "230ec6b8-00ef-4e61-8bf5-4f7d5763017c",
+    "product_id": "9fc12684-1000-4b2c-9d4c-ae743e3ac6a0",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "63c02969-58f0-4710-b851-1b757d080f53",
+    "product_id": "b29a2c22-73e9-4001-a29a-024f0fb3122b",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fcb3a0a4-e7fd-462f-a603-09fa8854e879",
+    "product_id": "d352ce83-69ff-4d35-bd93-166eb9d70201",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3ff6a06b-c9c1-4aef-a78c-631218e63f77",
+    "product_id": "26afe942-a4e8-4c2b-8721-d68645def7e6",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "37b30453-8514-4201-bf46-b3c587a73417",
+    "product_id": "14787691-2286-4149-a1bd-8a81d629bbc9",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "15df3b69-342b-47a9-b326-2e2b047ebe6a",
+    "product_id": "888e7e17-869c-49b2-a5b8-0944ef0b0fc6",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "dc3befcc-2171-45d3-8c57-31f976b13ce3",
+    "product_id": "c6e54444-e116-4d09-bc4a-a58f080de008",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "53c38c60-26b9-4e21-bdf0-25210c364110",
+    "product_id": "c09b4ad5-2b00-4d33-8049-215ddc41e06a",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4be881be-ef4d-459c-8f05-33cea203e780",
+    "product_id": "8c2fce7b-fbdf-4204-84db-f757b526555f",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "607c51d7-b56c-462a-8872-bd7412504268",
+    "product_id": "d8942094-b0bb-414f-964c-72a1fcd2775c",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bdb7d132-0cb1-4db6-a714-956ddf002a77",
+    "product_id": "1b59379e-a70e-4b99-a74e-b53e8683755f",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d8100b38-eccf-4152-acd4-61f6b1c81692",
+    "product_id": "e59ab826-6f7e-41bb-bfff-6c3339b6f929",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "87869f13-e1cb-4ed8-a999-27e97ed61c4a",
+    "product_id": "f586f6ce-3dec-411b-8652-16020bd90d9b",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "57f55672-63d2-4319-9a75-9e59db449dff",
+    "product_id": "c5091f35-38d6-4ac2-8256-603c1c6de425",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ba2a9869-e07e-4ab6-9936-44fabe5cfa84",
+    "product_id": "1eaff007-7728-43ba-90a8-f7a7452a64eb",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "87ad286b-0ee8-4512-b111-47e493995c82",
+    "product_id": "25804823-6ae8-4c05-882e-5610d29e97c1",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "705b1a50-15c2-41fb-bf29-456205385030",
+    "product_id": "68a19f0c-2198-4d47-8c84-a2c16af163b0",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "41b7ce96-480e-4a7b-89cf-d9cc2ce06bc8",
+    "product_id": "98f187ad-e3d0-4c50-b5bf-77c400ba417b",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0d1c98fb-2059-4a60-9034-c38abf92e345",
+    "product_id": "bd54b5e3-ce2e-4d01-a92e-f286d0ac7733",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6baefc11-9d74-41bc-8680-cd1eb57bb2bc",
+    "product_id": "0ae1ffaf-89b7-494d-b76e-c449cb87e448",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a99a399d-b463-4eea-8541-17a76d4082fe",
+    "product_id": "5f503cf9-6df0-4a67-b506-35d8966ae1ab",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "547fda28-084e-49a0-ae6c-00eccee0dac6",
+    "product_id": "ffb04c6f-7ed3-4fe1-a256-cb2d248d1944",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "329edd26-de33-45f8-ba6b-72ac42bf2504",
+    "product_id": "ccccb345-803a-4bf6-a0df-38328930c0c7",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "de750ed2-a885-418c-96eb-584d8a678bf6",
+    "product_id": "b0f585e9-335a-4ba0-bfb5-c97b42b8b5b1",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6aba28f7-15de-4cdf-81c1-fadc2508a81c",
+    "product_id": "0a64d8a7-8f35-48fe-b731-f1c9f953e9d6",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c26c2d28-7edb-402a-8590-7b0f9e53c03d",
+    "product_id": "a5682575-2420-415b-860a-f974be61487f",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c447cd86-071a-4f4e-b314-39bc7154356c",
+    "product_id": "ae8a0360-8048-4112-8175-30e038a89150",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7a7c9b2f-dce6-465d-b4af-8216cc699668",
+    "product_id": "d5e81485-1b30-4862-aa81-710efa91d66e",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6207f269-b228-42f7-a57a-98a5637b7f0e",
+    "product_id": "d526f83b-143d-4e12-9e76-46168299be1e",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "506a4f08-9aa5-4a95-8e2d-f1e598eeb0f3",
+    "product_id": "3cb48c4d-35da-4973-9158-d6e8b5ed5c22",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cb3b59f7-7181-409e-91e3-a0ea24daffaa",
+    "product_id": "f43f3748-2a3a-42c4-baad-96f9d691203e",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "dcbc5539-b473-4b0e-bd6b-eb785fe00ab6",
+    "product_id": "04a6b5a2-da25-4d41-b96c-48e562e4a40e",
+    "category_id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2d2586f0-51a2-430e-aede-b9b89a780f11",
+    "product_id": "09fc3ef2-ca7c-4b1e-864d-ee18aa3f803b",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "524daf69-c3b2-4abf-afa5-f68ff4e2e6aa",
+    "product_id": "0273305c-d5e5-417a-a1aa-d2c33f1460a5",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "3af36ab4-2c2e-4b21-a487-7b531f3dd2d9",
+    "product_id": "d6f3fbfe-40fc-4fe8-8b60-67ba8e2014a0",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "353df6e8-0380-4f1f-a946-3bce392c1c8b",
+    "product_id": "565f4e87-10a1-4df9-b2d7-649c0c156adf",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5d2ca028-aa94-4a1c-ac41-426a6d27811e",
+    "product_id": "aa9ffc33-a140-4667-98aa-9abd6a8d6b22",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "10fbdfa3-65ee-44b9-91ef-1b782e4089a5",
+    "product_id": "bb6bf5ec-0e74-4cc4-86d8-1d2a5cd6a177",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fda15156-ebd0-470f-843b-ce0d24b032f8",
+    "product_id": "e34745bf-b777-457a-be2f-33b997aa1e67",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a4a7358f-7293-473a-8c6b-ada99175cdfb",
+    "product_id": "589bdbba-0fa8-4468-afc4-67421c6d9aaa",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e5ac725d-b52f-4870-82df-dfe463e59e11",
+    "product_id": "c536539b-884a-43fe-a878-f98d81dcd611",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c730d1e7-d922-4ba4-beeb-17595a2f4e1a",
+    "product_id": "01370d46-3860-4c3e-a4d0-074ff372a4c1",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fad64219-f611-4b84-96cb-ff0954bb1161",
+    "product_id": "85d6d86c-dcf0-4116-acab-0db1460c5159",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fb83cf74-49e9-4dad-9ee9-847b99687c0f",
+    "product_id": "b9d4c178-a03a-4971-a2fb-8b5bc62b51d5",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "eff8503c-7f57-4bfb-ad7f-59a0f20c3563",
+    "product_id": "1381b897-091b-44c3-bbfe-dc0055de763e",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "348ab4f3-c4e1-41cd-9602-7114985371a2",
+    "product_id": "cb702270-21ae-4c51-9378-e79736697533",
+    "category_id": "a1672eba-007e-4ac4-935d-e7ab3896fa3c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "2ca0002a-d992-4a7d-a99d-bd3fd5cd4883",
+    "product_id": "155caa36-dfcf-49c3-b882-424c8fe3a66c",
+    "category_id": "a1672eba-007e-4ac4-935d-e7ab3896fa3c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6d88684e-0e6b-418a-8efe-1b2fbf92506a",
+    "product_id": "161f8ab4-f07d-491b-b3cc-29ec19668e0f",
+    "category_id": "454c6ac8-4c75-40fc-b544-c91cc35c3588",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d4815a29-084b-4e01-99cd-5abf2ab8b9d3",
+    "product_id": "6a7ce3d2-9f26-420d-b932-bdee010a2480",
+    "category_id": "a1672eba-007e-4ac4-935d-e7ab3896fa3c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "aa69ec57-80f8-4262-8203-cdd064f4a28d",
+    "product_id": "51e9a81d-79dc-4860-a85c-277fe361637a",
+    "category_id": "454c6ac8-4c75-40fc-b544-c91cc35c3588",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4daa83a1-2d91-42b9-b1cb-5e350b89b4bd",
+    "product_id": "5bce6cfe-bc4a-44ae-bd43-0d5377ceb6f7",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "713a17cc-0a2d-4bdb-925a-2f288e16e238",
+    "product_id": "60a0de0d-8ccb-41fc-bc99-5edbc5fd54bc",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6b519c24-72bb-46c9-ab50-f5f82c69f70c",
+    "product_id": "36dc659f-e238-4102-8997-d621696ed672",
+    "category_id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "78ac4f3a-420d-4105-8d38-7662e2bf758a",
+    "product_id": "479b0ca9-f5c9-485e-9409-537bec470812",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fc010061-467f-49c8-ad26-2c4404abede2",
+    "product_id": "79fe2c0c-c0c3-4a01-989d-1c738f6a5316",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1c614072-aa94-488d-b088-02d3fd79f9b7",
+    "product_id": "d8fc4a2e-29fc-4f18-a8f6-881511380257",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f04a1422-b8c8-46b9-9c1e-43df11d82a42",
+    "product_id": "a42a3268-ea55-4b72-b527-194f4b249db0",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "594d9349-4aae-4528-8f4c-1a46fe3fb44a",
+    "product_id": "ceb33b9c-d771-4a18-9e87-ece06c151816",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "fe6e58fa-3d9a-41ae-9f96-a61f38c55005",
+    "product_id": "fc2a8c63-973d-4e4f-9239-4318050abbd4",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "252f0d34-b581-4e86-b0a8-85c2a0953e72",
+    "product_id": "7382adbf-f8c8-457c-8027-176881d6119e",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0e90e8bb-284e-4ef5-ae17-54a3822c8f82",
+    "product_id": "dc8413b1-7d56-445e-979a-f6f2af8a8394",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "46d7a071-9d47-4146-bdd0-737c3555f263",
+    "product_id": "8fd2cbbe-5dc0-4094-ac7e-bf44e2b670f9",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "42c0e870-18cc-4d6c-86fb-06853a3cbadf",
+    "product_id": "2273f093-3416-4d97-b822-451060c19275",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "cf9a5120-242c-4c41-b2ce-d34643c8b74e",
+    "product_id": "6ef496a5-d2ec-43bd-aa74-db58b21713d6",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ff06e564-15ab-468d-92af-46c6eb7b1245",
+    "product_id": "1a0c4678-4de2-4a39-821d-8c00759e3604",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4ffb4135-520e-4933-9a29-eab9f9d27f8f",
+    "product_id": "40a62249-3fdb-4468-ac2a-3eba1871c76d",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f157acf2-4959-4bd9-b89d-218b3cd0ecff",
+    "product_id": "a00466ee-128e-4981-b56b-75db50174f18",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "76c97ef4-d8a9-4b84-ba6a-e1c830fbb522",
+    "product_id": "9a408bc0-89cf-438e-baed-268a70704d8d",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "74fba4af-9c5e-4d29-8f21-5c7ab11e16aa",
+    "product_id": "1557bab9-a0ed-44ba-82f3-61c1a8337d4d",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8ad2d6e5-2044-415a-adf9-42a3e61667bf",
+    "product_id": "f2b33f06-e046-4e8f-954a-d331d7607115",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "365162e0-9beb-4a4d-802f-0481f97cd60d",
+    "product_id": "55b57b71-76fd-4dc2-9dc5-cf65512ece1a",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "8599cb66-dbc3-470f-9905-654bfb7f8b8e",
+    "product_id": "b0411a67-1e1f-4e75-b83e-ff30805750ff",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "d45a0e0b-d894-4094-aae2-4d55d635e291",
+    "product_id": "fe07ef24-4806-4d5c-aac0-ed5a274091ed",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b82dfc93-a08c-40fa-9cbc-261a3e054329",
+    "product_id": "78b9ad4b-23b0-4388-a9d3-b35f8a3c4f6f",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a1992dcb-1cf4-4d9c-819d-a9a87f7c081d",
+    "product_id": "45f9992d-7fbd-4b73-972f-46eafb7f503a",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b6afa778-a984-434e-bd37-61e1a1f9fd5a",
+    "product_id": "73f24af5-b4f0-4bd2-9e00-dff4650f3305",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1a90ffca-985a-4f02-a441-3e9ff0355fdb",
+    "product_id": "3d0943a9-4448-4990-bdff-4f36d029bc1b",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e1cf2d6e-6ac9-4a98-9214-73cf0c3fce30",
+    "product_id": "4668019a-cd87-4d0d-b2be-20536fe7ad64",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f70589aa-6dc9-491f-97ee-e42a6c7100e9",
+    "product_id": "722c9434-0e63-4168-8695-d02413807c60",
+    "category_id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "56942396-dd3a-4600-8b4b-5da9b3af3370",
+    "product_id": "6d0088bb-329d-4d40-9550-fbb9be61cc87",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "12020e6c-8140-4e24-8b32-a71503aeab56",
+    "product_id": "0d6a3ceb-3285-4a5e-86ec-e1bb5d349a40",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "12b23333-f979-46ec-847e-858f23f311c2",
+    "product_id": "c0eca57a-ad28-458e-9260-f74a95886739",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "0a4ec5a3-d0a7-45df-9065-077f807c7c06",
+    "product_id": "6acd9b15-7e76-4d45-9ea1-fb74a2df7d75",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "7bb093f8-8b7f-404a-ab98-f7e57644a010",
+    "product_id": "5417413a-30a3-493b-868c-0605d738b630",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "b4020675-502b-4e0e-a841-0edff0e8e0bb",
+    "product_id": "7ba5c37b-5df0-41b6-9b25-468e955e773a",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "16fef901-e9f0-4f4e-a74a-d35dc8cabd6d",
+    "product_id": "d2368b3a-7f58-4180-96d4-6915ada720f0",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "dc8fabeb-3b8c-445c-a81f-97dc2a47a4df",
+    "product_id": "96ae6546-40a2-4b13-bbd8-656e35796c16",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "e71fb1eb-4097-4031-a923-d5910b130153",
+    "product_id": "a61a5010-c79a-4b0a-a2b3-0cbec970afe8",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "4120aa37-4461-46e4-bf2b-2b28af2597f9",
+    "product_id": "fde5a630-458c-4351-b5d6-2c89f9ed2986",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "99157e01-7ab5-4a92-900b-c9f33a36c42e",
+    "product_id": "5e25e5e0-bbf1-42e6-b2d4-39a7d15958cd",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "850898cf-547d-4381-8347-d9a6010c9f86",
+    "product_id": "07bfce8e-f6d7-4972-8d76-aad5c7724e14",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6fbbd0b6-53e3-4d78-8730-f26f36ed8243",
+    "product_id": "5869fcdc-ffae-4ffe-9ed5-aff7696a37dd",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "1de7b899-41b8-4acc-9a69-5f24ed1fad96",
+    "product_id": "1c221a1f-15fc-454f-baf2-44a3f816d564",
+    "category_id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c1f3c35e-ddae-4d6e-868c-ace9e3a402e8",
+    "product_id": "85ca42cb-f9ab-4969-b460-14afa5f22e57",
+    "category_id": "e9550ea6-29c9-4d4f-bb3c-6d508c578b12",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "aeb1cff2-f2bb-4044-87f1-3ab627fccd16",
+    "product_id": "95ccb1c0-16f7-483a-804c-277400d364a0",
+    "category_id": "e9550ea6-29c9-4d4f-bb3c-6d508c578b12",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ba1ea6a1-471a-4ca5-abde-a99470fa7ed5",
+    "product_id": "7239467e-e186-41f5-a739-ad4f4df23fe3",
+    "category_id": "e9550ea6-29c9-4d4f-bb3c-6d508c578b12",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "51793edb-f0c7-4b21-8849-83c4a43e0e8e",
+    "product_id": "ac459a65-de6e-4d76-a131-0bab36bb151c",
+    "category_id": "ab5540c5-b264-4c90-8549-bb0c6592b9e0",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a4df3ec4-823b-42e3-aaf7-9bb68fcf0a1b",
+    "product_id": "da10adc5-e560-468e-af6d-9ed2fd40d806",
+    "category_id": "ab5540c5-b264-4c90-8549-bb0c6592b9e0",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "bedb1763-64b3-4b6b-903b-4ac448996539",
+    "product_id": "8e8ab3ba-4c17-4740-949f-43abe9a5a1db",
+    "category_id": "ab5540c5-b264-4c90-8549-bb0c6592b9e0",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "f199319e-ada5-4580-8a41-9183a893796a",
+    "product_id": "5a05f7f6-dfb6-4e0c-ae7a-1f6abb9a7932",
+    "category_id": "ab5540c5-b264-4c90-8549-bb0c6592b9e0",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "313370ef-fc92-40fd-87dd-8f3be7e9804a",
+    "product_id": "5c12e4a8-5c55-4d3d-afa6-b3b9af3bf0db",
+    "category_id": "ab5540c5-b264-4c90-8549-bb0c6592b9e0",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "a8a1e0f1-d384-4d91-b25c-bfce9e91adff",
+    "product_id": "933d23d1-008b-465e-831e-d2a9507089d7",
+    "category_id": "8b3f5a8e-82ef-4bf9-85df-6dc7e7fc62d3",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "16b30a6e-3e1b-485d-8038-89349cb632d2",
+    "product_id": "23dfc6c6-aab4-4417-9ab0-b23f3a946098",
+    "category_id": "cb4ab580-e44d-44ad-ae92-08c0043ce168",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "9179a6b5-89bb-4bb4-9be0-b845723b0f85",
+    "product_id": "1463e84c-8729-40cd-8f3e-08597e18058d",
+    "category_id": "cb4ab580-e44d-44ad-ae92-08c0043ce168",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "ae23eced-330f-437c-8392-b2f44375faca",
+    "product_id": "66245c9a-6ade-4947-b7e4-f382bc2714a8",
+    "category_id": "cb4ab580-e44d-44ad-ae92-08c0043ce168",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "5c896f7f-81f9-4877-8c6b-9335bfe17ad8",
+    "product_id": "026c3a48-f0af-46c2-af7b-34c0cc24b227",
+    "category_id": "fa404bc9-4604-4573-81f2-5ffc82f1f6f2",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "857fd3da-c283-4654-89d2-0e02051791e9",
+    "product_id": "71235cb3-8be1-43ba-a87b-b1d644d08118",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "c1100fc8-a206-49d5-8c1b-7edcda02effa",
+    "product_id": "ceb7b720-1231-406d-b99f-dffd5ce8cabc",
+    "category_id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  },
+  {
+    "id": "6ea09534-c5ae-46d7-92f3-ae320eb10aa1",
+    "product_id": "97ca6b76-2fc2-455d-8fbd-7ffb8b4d9f78",
+    "category_id": "b4961906-989c-401b-9f85-6153990c293c",
+    "createdAt": "2024-01-21 15:58:07",
+    "updatedAt": "2024-01-21 15:58:07"
+  }
+]

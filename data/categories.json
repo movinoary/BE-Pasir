@@ -1,0 +1,66 @@
+[
+  {
+    "id": "eba92635-414d-42dc-b9c3-7c57b06e5f2b",
+    "name": "POD"
+  },
+  {
+    "id": "b39f1fb9-c10a-4467-bfa0-a01fb941c788",
+    "name": "Cartridge"
+  },
+  {
+    "id": "7729b0d1-f2c1-417b-9363-d177bd25ba89",
+    "name": "Coil OCC"
+  },
+  {
+    "id": "58ff377b-7de4-4d96-ad38-e05ebc1bdbee",
+    "name": "Freebase"
+  },
+  {
+    "id": "b4961906-989c-401b-9f85-6153990c293c",
+    "name": "Saltnic"
+  },
+  {
+    "id": "ab5540c5-b264-4c90-8549-bb0c6592b9e0",
+    "name": "Battery"
+  },
+  {
+    "id": "8036d981-5d64-4884-99b7-d0b94c96e2c8",
+    "name": "Cotton"
+  },
+  {
+    "id": "fa404bc9-4604-4573-81f2-5ffc82f1f6f2",
+    "name": "Coil Prebuild"
+  },
+  {
+    "id": "cb4ab580-e44d-44ad-ae92-08c0043ce168",
+    "name": "Accessories"
+  },
+  {
+    "id": "8b3f5a8e-82ef-4bf9-85df-6dc7e7fc62d3",
+    "name": "Charger"
+  },
+  {
+    "id": "e9550ea6-29c9-4d4f-bb3c-6d508c578b12",
+    "name": "Atomizer"
+  },
+  {
+    "id": "41dec256-d6a9-4d85-af25-58682fc09a6c",
+    "name": "Pods Friendly"
+  },
+  {
+    "id": "2d24cd16-9190-4c2c-9cd5-763cbfc64408",
+    "name": "PROMO!"
+  },
+  {
+    "id": "a1672eba-007e-4ac4-935d-e7ab3896fa3c",
+    "name": "MOD"
+  },
+  {
+    "id": "454c6ac8-4c75-40fc-b544-c91cc35c3588",
+    "name": "AIO"
+  },
+  {
+    "id": "e4a6e644-7c9b-41b6-980b-73a612401115",
+    "name": "POD/MOD"
+  }
+]
