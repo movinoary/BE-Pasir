@@ -12,4 +12,8 @@ app.use(cors());
 app.use("/api/pasir-v1/", router);
 app.use("/public", express.static("public"));
 
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 app.listen(port, () => console.log(`Listening on port ${port}!`));

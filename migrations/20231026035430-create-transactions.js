@@ -22,6 +22,15 @@ module.exports = {
       total_price: {
         type: DataTypes.INTEGER(15),
       },
+      information: {
+        type: DataTypes.STRING,
+      },
+      explanation: {
+        type: DataTypes.STRING,
+      },
+      description: {
+        type: DataTypes.STRING,
+      },
       createBy: {
         type: DataTypes.UUID,
         references: {

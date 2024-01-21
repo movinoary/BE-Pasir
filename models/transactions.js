@@ -44,6 +44,15 @@ module.exports = (sequelize, DataTypes) => {
       total_price: {
         type: DataTypes.STRING,
       },
+      information: {
+        type: DataTypes.STRING,
+      },
+      explanation: {
+        type: DataTypes.STRING,
+      },
+      description: {
+        type: DataTypes.STRING,
+      },
       createBy: {
         type: DataTypes.UUID,
         references: {

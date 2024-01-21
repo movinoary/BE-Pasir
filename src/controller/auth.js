@@ -1,4 +1,4 @@
-const { user, roles } = require("../../models");
+const { user, roles, transactions } = require("../../models");
 const Joi = require("joi");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -41,11 +41,11 @@ exports.register = async (req, res) => {
 
       res.status(200).send({
         status: "success",
+        message: "account created",
         data: {
           name: newUser.name,
           email: newUser.email,
           role: newUser.role_id,
-          // password: hashedPassword,
         },
       });
     } else {
@@ -230,6 +230,12 @@ exports.checkAuth = async (req, res) => {
       },
     });
 
+    let dataTransaction = await transactions.findAll({
+      where: {
+        createBy: verified.id,
+      },
+    });
+
     if (!dataUser) {
       return res.status(404).send({
         status: "failed",
@@ -237,6 +243,16 @@ exports.checkAuth = async (req, res) => {
     }
     dataUser = JSON.parse(JSON.stringify(dataUser));
     const role = JSON.parse(dataUser.role.permission);
+    dataTransaction = JSON.parse(JSON.stringify(dataTransaction));
+
+    const transactionIn = dataTransaction.filter((d) => d.type === "IN");
+    const transactionOut = dataTransaction.filter((d) => d.type === "OUT");
+
+    dataTransaction = {
+      manyTransaction: dataTransaction.length,
+      manyTransactionIn: transactionIn.length,
+      manyTransactionOut: transactionOut.length,
+    };
 
     dataUser = {
       ...dataUser,
@@ -245,6 +261,7 @@ exports.checkAuth = async (req, res) => {
         ...dataUser.role,
         permission: role,
       },
+      dataTransaction,
     };
 
     res.send({
@@ -252,7 +269,6 @@ exports.checkAuth = async (req, res) => {
       data: dataUser,
     });
   } catch (error) {
-    console.log(error);
     res.status({
       status: "failed",
       message: "Server Error",

@@ -5,6 +5,8 @@ const {
   product_price,
   product_category,
   category,
+  transactions,
+  transaction_items,
 } = require("../../models");
 
 exports.addProduct = async (req, res) => {
@@ -33,6 +35,7 @@ exports.addProduct = async (req, res) => {
 
     const dataVariant = JSON.parse(data.variant);
     const listVariantName = dataVariant.map((d) => d.name);
+    const db = await transactions.findAll({});
     let validasiVariant = await product_variant.findAll({
       where: {
         name: listVariantName,
@@ -59,12 +62,17 @@ exports.addProduct = async (req, res) => {
     const bodyVariant = dataVariant.map((d) => {
       return {
         name: d.name,
+        stockTotal: d.stock,
         stock: d.stock,
+        stockOut: 0,
+        stockSelling: 0,
+        stockReject: 0,
         product_id: resultProduct.id,
       };
     });
 
-    const resultVariant = await product_variant.bulkCreate(bodyVariant);
+    let resultVariant = await product_variant.bulkCreate(bodyVariant);
+    resultVariant = JSON.parse(JSON.stringify(resultVariant));
 
     const bodyPrice = {
       product_id: resultProduct.id,
@@ -83,11 +91,48 @@ exports.addProduct = async (req, res) => {
       ...bodyProductCategory,
     });
 
+    const amount = resultVariant
+      .map((d) => Number(d.stock))
+      .reduce((a, b) => a + b, 0);
+    const price = Number(data.purchase_price) * amount;
+
+    let bodyTransaction = {
+      no_transaction: `AD000${db.length + 1}`,
+      type: "IN",
+      methods: "Add Product",
+      total_price: price,
+      createBy: userID,
+      information: "Buying",
+      explanation: "*",
+      description: "Create Product",
+    };
+
+    const fieldsTransaction = await transactions.create({
+      ...bodyTransaction,
+    });
+
+    const bodyTransactionItems = resultVariant.map((d) => {
+      return {
+        transactions_id: fieldsTransaction.id,
+        product_id: fieldsProduct.id,
+        variant_id: d.id,
+        price_id: resultPrice.id,
+        price: Number(data.purchase_price) * d.stock,
+        amount: d.stock,
+      };
+    });
+
+    const fieldsTransactionProduct = await transaction_items.bulkCreate(
+      bodyTransactionItems
+    );
+
     const result = {
       resultProduct,
       resultVariant,
       resultPrice,
       resultProductCategory,
+      fieldsTransaction,
+      fieldsTransactionProduct,
     };
 
     body = JSON.parse(JSON.stringify(result));
@@ -142,6 +187,7 @@ exports.addProductImg = async (req, res) => {
 
     const dataVariant = JSON.parse(data.variant);
     const listVariantName = dataVariant.map((d) => d.name);
+    const db = await transactions.findAll({});
     let validasiVariant = await product_variant.findAll({
       where: {
         name: listVariantName,
@@ -168,7 +214,11 @@ exports.addProductImg = async (req, res) => {
     const bodyVariant = dataVariant.map((d) => {
       return {
         name: d.name,
+        stockTotal: d.stock,
         stock: d.stock,
+        stockOut: 0,
+        stockSelling: 0,
+        stockReject: 0,
         product_id: resultProduct.id,
       };
     });
@@ -192,11 +242,52 @@ exports.addProductImg = async (req, res) => {
       ...bodyProductCategory,
     });
 
+    const amount = resultVariant
+      .map((d) => Number(d.stock))
+      .reduce((a, b) => a + b, 0);
+    const price = Number(data.purchase_price) * amount;
+
+    console.log("amount", amount);
+    console.log("purchase_price", data.purchase_price);
+    console.log("price", price);
+
+    let bodyTransaction = {
+      no_transaction: `AD000${db.length + 1}`,
+      type: "IN",
+      methods: "Add Product",
+      total_price: price,
+      createBy: userID,
+      information: "Buying",
+      explanation: "*",
+      description: "Create Product",
+    };
+
+    const fieldsTransaction = await transactions.create({
+      ...bodyTransaction,
+    });
+
+    const bodyTransactionItems = resultVariant.map((d) => {
+      return {
+        transactions_id: fieldsTransaction.id,
+        product_id: fieldsProduct.id,
+        variant_id: d.id,
+        price_id: resultPrice.id,
+        price: Number(data.purchase_price) * d.stock,
+        amount: d.stock,
+      };
+    });
+
+    const fieldsTransactionProduct = await transaction_items.bulkCreate(
+      bodyTransactionItems
+    );
+
     const result = {
       resultProduct,
       resultVariant,
       resultPrice,
       resultProductCategory,
+      fieldsTransaction,
+      fieldsTransactionProduct,
     };
 
     body = JSON.parse(JSON.stringify(result));
@@ -217,7 +308,6 @@ exports.addProductImg = async (req, res) => {
     //   });
     // }
   } catch (error) {
-    console.log(error);
     res.status(400).send({
       status: "failed create product data",
       message: "server error",
@@ -299,7 +389,92 @@ exports.getProduct = async (req, res) => {
       data: result,
     });
   } catch (error) {
-    console.log(error);
+    res.status(400).send({
+      status: "failed",
+      message: "Server Error",
+    });
+  }
+};
+
+exports.getProductCashier = async (req, res) => {
+  try {
+    let data = await product.findAll({
+      include: [
+        {
+          model: product_variant,
+          as: "variant",
+          attributes: {
+            exclude: ["product_id", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: user,
+          as: "createby",
+          attributes: {
+            exclude: ["password", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: user,
+          as: "updateby",
+          attributes: {
+            exclude: ["password", "createdAt", "updatedAt"],
+          },
+        },
+        {
+          model: product_price,
+          as: "list_price",
+          attributes: {
+            exclude: ["updatedAt"],
+          },
+        },
+        {
+          model: product_category,
+          as: "category",
+          attributes: {
+            exclude: ["createdAt", "updatedAt", "id", "product_id"],
+          },
+          include: [
+            {
+              model: category,
+              as: "category_name",
+              attributes: {
+                exclude: ["id", "createdAt", "updatedAt"],
+              },
+            },
+          ],
+        },
+      ],
+      attributes: {
+        exclude: ["createdAt", "updatedAt"],
+      },
+    });
+
+    data = JSON.parse(JSON.stringify(data));
+
+    let result = data.map((d) => {
+      const price = d.list_price.sort((a, b) =>
+        a.createdAt < b.createdAt ? 1 : -1
+      )[0];
+      const variant = d.variant.filter((t) => t.stock !== 0);
+
+      return {
+        ...d,
+        price_id: price.id,
+        selling_price: price.selling_price,
+        purchase_price: price.purchase_price,
+        variant: variant,
+      };
+    });
+
+    result = result.filter((d) => d.variant.length !== 0);
+
+    res.status(200).send({
+      status: "success ",
+      message: "Get data product",
+      data: result,
+    });
+  } catch (error) {
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -393,6 +568,7 @@ exports.getProductId = async (req, res) => {
 exports.updateProduct = async (req, res) => {
   try {
     const { id } = req.params;
+    const { ...data } = req.body;
 
     await product.update(req.body, {
       where: {
@@ -400,15 +576,20 @@ exports.updateProduct = async (req, res) => {
       },
     });
 
-    const body = {
-      category_id: req.body.category_id,
-    };
-
-    let data = await product_category.update(body, {
-      where: {
-        product_id: id,
-      },
+    const dataVariant = data.variant.map((d) => {
+      return {
+        id: d.id,
+        name: d.name,
+      };
     });
+
+    for (let i = 0; i < dataVariant.length; i++) {
+      await product_variant.update(dataVariant[i], {
+        where: {
+          id: dataVariant[i].id,
+        },
+      });
+    }
 
     res.status(200).send({
       status: "success",

@@ -23,8 +23,20 @@ module.exports = (sequelize, DataTypes) => {
       name: {
         type: DataTypes.STRING,
       },
+      stockTotal: {
+        type: DataTypes.INTEGER(15),
+      },
       stock: {
-        type: DataTypes.INTEGER(10),
+        type: DataTypes.INTEGER(15),
+      },
+      stockOut: {
+        type: DataTypes.INTEGER(15),
+      },
+      stockSelling: {
+        type: DataTypes.INTEGER(15),
+      },
+      stockReject: {
+        type: DataTypes.INTEGER(15),
       },
       product_id: {
         type: DataTypes.UUID,

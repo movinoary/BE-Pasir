@@ -3,7 +3,6 @@ const {
   product,
   product_category,
   product_variant,
-  product_price,
 } = require("../../models");
 
 exports.addCategory = async (req, res) => {
@@ -15,14 +14,8 @@ exports.addCategory = async (req, res) => {
   try {
     const { ...data } = req.body;
 
-    const fields = await category.create({
+    let body = await category.create({
       ...data,
-    });
-
-    let body = await category.findOne({
-      where: {
-        id: fields.id,
-      },
     });
 
     body = JSON.parse(JSON.stringify(body));
@@ -51,33 +44,6 @@ exports.getCategory = async (req, res) => {
           attributes: {
             exclude: ["id", "category_id", "createdAt", "updatedAt"],
           },
-          // include: [
-          //   {
-          //     model: product,
-          //     as: "product",
-          //     attributes: {
-          //       exclude: ["id", "category_id", "createdAt", "updatedAt"],
-          //     },
-          //     include: [
-          //       {
-          //         model: product_variant,
-          //         as: "variant",
-          //         attributes: {
-          //           exclude: ["id", "product_id", "createdAt", "updatedAt"],
-          //         },
-          //         include: [
-          //           {
-          //             model: product_price,
-          //             as: "list_price",
-          //             attributes: {
-          //               exclude: ["id", "updatedAt"],
-          //             },
-          //           },
-          //         ],
-          //       },
-          //     ],
-          //   },
-          // ],
         },
       ],
       attributes: {
@@ -91,7 +57,6 @@ exports.getCategory = async (req, res) => {
       data,
     });
   } catch (error) {
-    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
