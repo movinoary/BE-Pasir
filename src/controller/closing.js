@@ -135,6 +135,7 @@ exports.getClosingRangeDate = async (req, res) => {
         .send({ status: "failed", message: "Please Select Same Month" });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -209,6 +210,7 @@ exports.getTransactionDate = async (req, res) => {
 
     res.status(200).send({ status: "success", data: data });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };

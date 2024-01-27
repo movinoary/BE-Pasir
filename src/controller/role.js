@@ -10,7 +10,12 @@ exports.addRole = async (req, res) => {
   try {
     const { ...data } = req.body;
 
-    const permission = JSON.stringify(data.permission);
+    let permission;
+    if (web === "development") {
+      const permission = JSON.stringify(data.permission);
+    } else if (web === "production") {
+      permission = data.permission;
+    }
 
     let body = await roles.create({
       ...data,
@@ -26,6 +31,7 @@ exports.addRole = async (req, res) => {
       },
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "server error",
@@ -42,14 +48,21 @@ exports.getRole = async (req, res) => {
     });
 
     data = JSON.parse(JSON.stringify(data));
-    const resData = data.map((d) => {
-      const permission = JSON.parse(d.permission);
+    const web = process.env.TYPE;
+    let resData;
 
-      return {
-        ...d,
-        permission,
-      };
-    });
+    if (web === "development") {
+      resData = data.map((d) => {
+        const permission = JSON.parse(d.permission);
+
+        return {
+          ...d,
+          permission,
+        };
+      });
+    } else if (web === "production") {
+      resData = data;
+    }
 
     res.status(200).send({
       status: "success ",
@@ -57,6 +70,7 @@ exports.getRole = async (req, res) => {
       data: resData,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -70,7 +84,13 @@ exports.updateRole = async (req, res) => {
     const { ...data } = req.body;
 
     let body;
-    const permission = JSON.stringify(data?.permission);
+    let permission;
+    if (web === "development") {
+      permission = JSON.stringify(data.permission);
+    } else if (web === "production") {
+      permission = data.permission;
+    }
+
     if (data?.permission !== undefined && data?.name !== undefined) {
       body = {
         name: data.name,
@@ -98,6 +118,7 @@ exports.updateRole = async (req, res) => {
       data: body,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -127,6 +148,7 @@ exports.deleteRole = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",

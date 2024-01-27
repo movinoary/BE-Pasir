@@ -153,6 +153,7 @@ exports.addProduct = async (req, res) => {
     //   });
     // }
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed create product data",
       message: "server error",
@@ -304,6 +305,7 @@ exports.addProductImg = async (req, res) => {
     //   });
     // }
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed create product data",
       message: "server error",
@@ -385,6 +387,7 @@ exports.getProduct = async (req, res) => {
       data: result,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -471,6 +474,7 @@ exports.getProductCashier = async (req, res) => {
       data: result,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -554,6 +558,7 @@ exports.getProductId = async (req, res) => {
       data: result,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -593,6 +598,7 @@ exports.updateProduct = async (req, res) => {
       data: req.body,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -622,6 +628,7 @@ exports.deleteProduct = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",

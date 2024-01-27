@@ -225,6 +225,7 @@ exports.addTransaction = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "server error" });
   }
 };
@@ -287,6 +288,7 @@ exports.getTransaction = async (req, res) => {
 
     res.status(200).send({ status: "success", data: data });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -353,6 +355,7 @@ exports.getTransactionId = async (req, res) => {
 
     res.status(200).send({ status: "success", data });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -415,6 +418,7 @@ exports.getTransactionProduct = async (req, res) => {
 
     res.status(200).send({ status: "success", data: data });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -543,6 +547,7 @@ exports.getTransactionProductDate = async (req, res) => {
       data: productDataRes,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -617,6 +622,7 @@ exports.getTransactionDate = async (req, res) => {
 
     res.status(200).send({ status: "success", data: data });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -637,6 +643,7 @@ exports.updateTransaction = async (req, res) => {
       data: req.body,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };
@@ -662,6 +669,7 @@ exports.deleteTransaction = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({ status: "failed", message: "Server Error" });
   }
 };

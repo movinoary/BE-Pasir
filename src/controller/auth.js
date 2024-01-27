@@ -23,6 +23,7 @@ exports.register = async (req, res) => {
       const { error } = schema.validate(data);
 
       if (error) {
+        console.log(error);
         return res.status(400).send({
           status: "error",
           message: error.details[0].message,
@@ -55,6 +56,7 @@ exports.register = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(500).send({
       status: "failed",
       message: "Server Error",
@@ -64,6 +66,7 @@ exports.register = async (req, res) => {
 
 exports.login = async (req, res) => {
   const data = req.body;
+  const web = process.env.TYPE;
 
   const schema = Joi.object({
     email: Joi.string().email().required(),
@@ -114,7 +117,12 @@ exports.login = async (req, res) => {
       },
     });
 
-    const permission = JSON.parse(role.permission);
+    let permission;
+    if (web === "development") {
+      permission = JSON.parse(role.permission);
+    } else if (web === "production") {
+      permission = role.permission;
+    }
 
     const dataToken = {
       id: userExist.id,
@@ -140,6 +148,7 @@ exports.login = async (req, res) => {
       },
     });
   } catch (error) {
+    console.log(error);
     res.status(500).send({
       status: "failed",
       message: "Server Error",
@@ -155,6 +164,7 @@ exports.logout = async (req, res) => {
       message: "See You Later",
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "error",
     });
@@ -172,6 +182,7 @@ exports.forgetPassword = async (req, res) => {
     const { error } = schema.validate(data);
 
     if (error) {
+      console.log(error);
       return res.status(400).send({
         status: "error",
         message: error.details[0].message,
@@ -199,6 +210,7 @@ exports.forgetPassword = async (req, res) => {
       hashedPassword,
     });
   } catch (error) {
+    console.log(error);
     res.status(500).send({
       status: "failed",
       message: "Server Error",
@@ -211,6 +223,7 @@ exports.checkAuth = async (req, res) => {
     const authHeader = req.header("Authorization");
     const token = authHeader && authHeader.split(" ")[1];
     const verified = jwt.verify(token, process.env.TOKEN_KEY);
+    const web = process.env.TYPE;
 
     let dataUser = await user.findOne({
       where: {
@@ -242,7 +255,13 @@ exports.checkAuth = async (req, res) => {
       });
     }
     dataUser = JSON.parse(JSON.stringify(dataUser));
-    const role = JSON.parse(dataUser.role.permission);
+    let permission;
+    if (web === "development") {
+      permission = JSON.parse(dataUser.role.permission);
+    } else if (web === "production") {
+      permission = dataUser.role.permission;
+    }
+
     dataTransaction = JSON.parse(JSON.stringify(dataTransaction));
 
     const transactionIn = dataTransaction.filter((d) => d.type === "IN");
@@ -259,7 +278,7 @@ exports.checkAuth = async (req, res) => {
       token,
       role: {
         ...dataUser.role,
-        permission: role,
+        permission,
       },
       dataTransaction,
     };
@@ -269,6 +288,7 @@ exports.checkAuth = async (req, res) => {
       data: dataUser,
     });
   } catch (error) {
+    console.log(error);
     res.status({
       status: "failed",
       message: "Server Error",

@@ -2,6 +2,8 @@ const { user, roles } = require("../../models");
 
 exports.getUser = async (req, res) => {
   try {
+    const web = process.env.TYPE;
+
     let data = await user.findAll({
       include: [
         {
@@ -18,17 +20,23 @@ exports.getUser = async (req, res) => {
     });
 
     data = JSON.parse(JSON.stringify(data));
-    const resData = data.map((d) => {
-      const permission = JSON.parse(d.role.permission);
+    let resData;
 
-      return {
-        ...d,
-        role: {
-          ...d.role,
-          permission,
-        },
-      };
-    });
+    if (web === "development") {
+      resData = data.map((d) => {
+        const permission = JSON.parse(d.role.permission);
+
+        return {
+          ...d,
+          role: {
+            ...d.role,
+            permission,
+          },
+        };
+      });
+    } else if (web === "producttion") {
+      resData = data;
+    }
 
     res.status(200).send({
       status: "success ",
@@ -36,6 +44,7 @@ exports.getUser = async (req, res) => {
       data: resData,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -73,6 +82,7 @@ exports.getUserID = async (req, res) => {
       data: data,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -97,6 +107,7 @@ exports.updateUser = async (req, res) => {
       data: { ...data },
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -126,6 +137,7 @@ exports.deleteUser = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",

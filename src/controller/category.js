@@ -27,6 +27,7 @@ exports.addCategory = async (req, res) => {
       },
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "server error",
@@ -57,6 +58,7 @@ exports.getCategory = async (req, res) => {
       data,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -111,6 +113,7 @@ exports.getCategoryId = async (req, res) => {
       ...data,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -134,6 +137,7 @@ exports.updateCategory = async (req, res) => {
       data: req.body,
     });
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -163,6 +167,7 @@ exports.deleteCategory = async (req, res) => {
       });
     }
   } catch (error) {
+    console.log(error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
