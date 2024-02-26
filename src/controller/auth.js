@@ -12,49 +12,61 @@ exports.register = async (req, res) => {
       },
     });
 
-    if (validasiEmail === null) {
-      const schema = Joi.object({
-        name: Joi.string().min(3).required(),
-        email: Joi.string().email().required(),
-        password: Joi.string().min(8).required(),
-        role_id: Joi.string().min(3).required(),
-      });
+    const validasiUsername = await user.findOne({
+      where: {
+        username: data.username,
+      },
+    })
 
-      const { error } = schema.validate(data);
-
-      if (error) {
-        console.log(error);
-        return res.status(400).send({
-          status: "error",
-          message: error.details[0].message,
-        });
-      }
-
-      const salt = await bcrypt.genSalt(10);
-      const hashedPassword = await bcrypt.hash(data.password, salt);
-
-      const newUser = await user.create({
-        name: data.name,
-        email: data.email,
-        password: hashedPassword,
-        role_id: data.role_id,
-      });
-
-      res.status(200).send({
-        status: "success",
-        message: "account created",
-        data: {
-          name: newUser.name,
-          email: newUser.email,
-          role: newUser.role_id,
-        },
-      });
-    } else {
+    if (validasiEmail) {
       res.status(500).send({
         status: "failed",
-        message: "account already created",
+        message: "Email alredy exists",
       });
     }
+
+    if (validasiUsername) {
+      res.status(500).send({
+        status: "failed",
+        message: "Username alredy exists",
+      });
+    }
+
+    const schema = Joi.object({
+      name: Joi.string().min(3).required(),
+      username: Joi.string().username().required,
+      email: Joi.string().email().required(),
+      password: Joi.string().min(8).required(),
+      role_id: Joi.string().min(3).required(),
+    });
+    const { error } = schema.validate(data);
+    if (error) {
+      console.log(error);
+      return res.status(400).send({
+        status: "error",
+        message: error.details[0].message,
+      });
+    }
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(data.password, salt);
+    const newUser = await user.create({
+      name: data.name,
+      username: data.username,
+      email: data.email,
+      password: hashedPassword,
+      role_id: data.role_id,
+    });
+
+    res.status(200).send({
+      status: "success",
+      message: "account created",
+      data: {
+        name: newUser.name,
+        username: newUser.username,
+        email: newUser.email,
+        role: newUser.role_id,
+      },
+    });
   } catch (error) {
     console.log(error);
     res.status(500).send({
@@ -69,7 +81,7 @@ exports.login = async (req, res) => {
   const web = process.env.TYPE;
 
   const schema = Joi.object({
-    email: Joi.string().email().required(),
+    username: Joi.string().username().required(),
     password: Joi.string().min(8).required(),
   });
 
@@ -85,7 +97,7 @@ exports.login = async (req, res) => {
   try {
     const userExist = await user.findOne({
       where: {
-        email: data.email,
+        username: data.username,
       },
       attributes: {
         exclude: ["createdAt", "updatedAt"],
@@ -95,7 +107,7 @@ exports.login = async (req, res) => {
     if (!userExist) {
       return res.status(400).send({
         status: "Failed",
-        message: "Email doesnt match",
+        message: "Username doesnt match",
       });
     }
 
@@ -141,6 +153,7 @@ exports.login = async (req, res) => {
           id: userExist.dataValues.id,
           role: role.name,
           name: userExist.dataValues.name,
+          username: userExist.dataValues.username,
           email: userExist.dataValues.email,
           permission: permission,
         },
