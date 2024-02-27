@@ -34,7 +34,7 @@ exports.register = async (req, res) => {
 
     const schema = Joi.object({
       name: Joi.string().min(3).required(),
-      username: Joi.string().username().required,
+      username: Joi.string().min(3).required(),
       email: Joi.string().email().required(),
       password: Joi.string().min(8).required(),
       role_id: Joi.string().min(3).required(),
@@ -81,7 +81,7 @@ exports.login = async (req, res) => {
   const web = process.env.TYPE;
 
   const schema = Joi.object({
-    username: Joi.string().username().required(),
+    username: Joi.string().min(3).required(),
     password: Joi.string().min(8).required(),
   });
 

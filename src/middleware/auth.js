@@ -2,9 +2,11 @@ const jwt = require("jsonwebtoken");
 
 exports.auth = (req, res, next) => {
   const authHeader = req.header("Authorization");
-  const token = authHeader && authHeader.split(" ")[1];
+  const token = authHeader && authHeader.split(" ")[0];
   let pathname = req._parsedUrl.pathname;
   pathname = pathname.split("/")[1].toString();
+  console.log(token)
+  console.log(authHeader)
 
   if (!token) {
     return res.status(401).send({
