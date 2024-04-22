@@ -43,6 +43,13 @@ const {
   updateRole,
   deleteRole,
 } = require("../controller/role");
+const {
+  addBrand, 
+  getBrand,
+  updateBrand,
+  deleteBrand,
+} = require("../controller/brand");
+
 const { auth } = require("../middleware/auth");
 const { getClosingRangeDate } = require("../controller/closing");
 
@@ -75,7 +82,7 @@ router.get("/category/get/:id", auth, getCategoryId);
 router.delete("/category/delete/:id", auth, deleteCategory);
 
 // PRODUCT
-router.post("/product/add", auth, addProduct);
+router.post("/product/add", addProduct);
 router.post("/product/add-img", auth, uploadImg("image"), addProductImg);
 router.patch("/product/update/:id", auth, updateProduct);
 router.get("/product/get", auth, getProduct);
@@ -97,6 +104,12 @@ router.get(
 
 // CLOSING
 router.get("/closing/range", getClosingRangeDate);
+
+// BRAND
+router.post("/brand/add", addBrand);
+router.get("/brand/get", getBrand);
+router.patch("/brand/update/:id", updateBrand);
+router.delete("/brand/delete/:id", deleteBrand);
 
 module.exports = router;
 
