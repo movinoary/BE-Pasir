@@ -329,7 +329,7 @@ exports.getProduct = async (req, res) => {
   q = `select
 	products.id,
 	products.name,
-	b.name,
+	b.name brand,
 	image,
 	(SELECT name from users u WHERE id = products.createBy) create_by,
 	(SELECT name from users u WHERE id = products.updateBy) update_by,
