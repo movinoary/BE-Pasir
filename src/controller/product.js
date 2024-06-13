@@ -51,6 +51,7 @@ exports.addProduct = async (req, res) => {
     const bodyProduct = {
       name: data.name,
       image: data.image,
+      brand_id: data.brand_id,
       createBy: userID,
       updateBy: userID,
     };
