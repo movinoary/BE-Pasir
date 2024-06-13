@@ -1,3 +1,4 @@
+const { DataTypes, QueryTypes } = require("sequelize");
 const {
   user,
   product,
@@ -7,7 +8,12 @@ const {
   category,
   transactions,
   transaction_items,
+  Sequelize,
+  brands,
+  sequelize
 } = require("../../models");
+const { required, types } = require("joi");
+const { Op } = require('sequelize');
 
 exports.addProduct = async (req, res) => {
   /*
@@ -314,77 +320,68 @@ exports.addProductImg = async (req, res) => {
 };
 
 exports.getProduct = async (req, res) => {
+  const whereClause = []; // Array to hold WHERE clause conditions
+
+  search_name = req.query.name
+  search_brand = req.query.brand
+  search_category = req.query.category
+
+  q = `select
+	products.id,
+	products.name,
+	b.name,
+	image,
+	(SELECT name from users u WHERE id = products.createBy) create_by,
+	(SELECT name from users u WHERE id = products.updateBy) update_by,
+	c.name categories,
+	purchase_price,
+	selling_price,
+	JSON_ARRAYAGG(
+		JSON_OBJECT(
+		'id', pv.id,
+		'name', pv.name,
+		'stock_total', pv.stockTotal,
+		'stock', stock,
+		'stock_out', pv.stockOut 
+		) 
+	) variant
+from
+	products
+join product_prices on
+	products.id = product_prices.product_id
+LEFT join product_variants pv on
+	products.id = pv.product_id
+LEFT JOIN brands b on
+	products.brand_id = b.id 
+LEFT JOIN  product_categories pc on
+	products.id = pc.product_id
+LEFT JOIN categories c on
+	pc.category_id = c.id`
+
+  if (search_name) {
+    q += ` WHERE products.name LIKE '%${search_name}%'`;
+  }
+
+  if (search_brand) {
+    q += ` WHERE b.name = '${search_brand}'`;
+  }
+
+  if (search_category) {
+    q += ` WHERE c.name = '${search_category}'`
+  }
+
+  q += ` GROUP BY 1, 2, 3, 4, 5, 6, 7, 8, 9`;
+
   try {
-    let data = await product.findAll({
-      include: [
-        {
-          model: product_variant,
-          as: "variant",
-          attributes: {
-            exclude: ["product_id", "createdAt", "updatedAt"],
-          },
-        },
-        {
-          model: user,
-          as: "createby",
-          attributes: {
-            exclude: ["password", "createdAt", "updatedAt"],
-          },
-        },
-        {
-          model: user,
-          as: "updateby",
-          attributes: {
-            exclude: ["password", "createdAt", "updatedAt"],
-          },
-        },
-        {
-          model: product_price,
-          as: "list_price",
-          attributes: {
-            exclude: ["updatedAt"],
-          },
-        },
-        {
-          model: product_category,
-          as: "category",
-          attributes: {
-            exclude: ["createdAt", "updatedAt", "id", "product_id"],
-          },
-          include: [
-            {
-              model: category,
-              as: "category_name",
-              attributes: {
-                exclude: ["id", "createdAt", "updatedAt"],
-              },
-            },
-          ],
-        },
-      ],
-      attributes: {
-        exclude: ["createdAt", "updatedAt"],
-      },
-    });
+    let data = await await sequelize.query(q, {type: QueryTypes.SELECT});
 
     data = JSON.parse(JSON.stringify(data));
 
-    const result = data.map((d) => {
-      const price = d.list_price.sort((a, b) =>
-        a.createdAt < b.createdAt ? 1 : -1
-      )[0];
-      return {
-        ...d,
-        price_id: price.id,
-        selling_price: price.selling_price,
-        purchase_price: price.purchase_price,
-      };
-    });
 
     res.status(200).send({
       status: "success ",
       message: "Get data product",
-      data: result,
+      data: data,
     });
   } catch (error) {
     console.log(error);
@@ -403,6 +400,7 @@ exports.getProductCashier = async (req, res) => {
           model: product_variant,
           as: "variant",
           attributes: {
+            include: [[DataTypes.sub('stockTotal', 'stockOut'), 'stock']],
             exclude: ["product_id", "createdAt", "updatedAt"],
           },
         },
@@ -494,6 +492,7 @@ exports.getProductId = async (req, res) => {
           model: product_variant,
           as: "variant",
           attributes: {
+            include: [[DataTypes.sub('stockTotal', 'stockOut'), 'stock']],
             exclude: ["product_id", "createdAt", "updatedAt"],
           },
         },
