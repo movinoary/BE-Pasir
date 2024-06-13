@@ -39,6 +39,12 @@ module.exports = (sequelize, DataTypes) => {
           name: "product_id",
         },
       });
+      product.belongsTo(models.brands, {
+        as: "brand",
+        foreignKey: {
+          name: "brand_id",
+        },
+      });
     }
   }
   product.init(
@@ -55,6 +61,15 @@ module.exports = (sequelize, DataTypes) => {
       },
       image: {
         type: DataTypes.STRING,
+      },
+      brand_id: {
+        type: DataTypes.UUID,
+        references: {
+          model: "brands",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "CASCADE",
       },
       createBy: {
         type: DataTypes.UUID,
