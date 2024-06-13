@@ -4,11 +4,29 @@
 
 pastikan node_modules sudah terinstal atau instal menggunakan
 
-#### `npm instal`
+#### `npm install`
 
 atau
 
 #### `yarn`
+
+Run db on docker
+
+## `docker-compose up pasir_db`
+
+for first time
+
+## `create database [name];`
+## `npx sequelize db:migrate`
+## `npx sequelize-cli db:seed:all`
+
+check db
+
+## `docker exec -it -e MYSQL_PASSWORD=example pasir_db  mysql -u root -p`
+## `use [db name]`
+
+make migration
+## `npx sequelize-cli migration:create --name [migration_name]`
 
 ## Database
 
@@ -50,13 +68,13 @@ Production Path
 
 ### Route Auth
 
-| Parameter            | Methods | Parameter                                  |
-| :------------------- | :------ | :----------------------------------------- |
-| /register            | POST    | {nama,email,password, role_id} format json |
-| /login               | POST    | {email,password} format json               |
-| /logout              | DELETE  | Bearer + token                             |
-| /forget-password/:id | DELETE  | {password1, password2}                     |
-| /check-auth          | DELETE  | Bearer + token                             |
+| Parameter            | Methods | Parameter                                             |
+| :------------------- | :------ | :---------------------------------------------------- |
+| /register            | POST    | {nama, username, email,password, role_id} format json |
+| /login               | POST    | {email,password} format json                          |
+| /logout              | DELETE  | Bearer + token                                        |
+| /forget-password/:id | DELETE  | {password1, password2}                                |
+| /check-auth          | DELETE  | Bearer + token                                        |
 
 ### Route User
 
