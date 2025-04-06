@@ -41,9 +41,25 @@ exports.getRole = async (req, res) => {
       },
     });
 
+    // Add debugging
+    console.log('Raw data from DB:', data);
     data = JSON.parse(JSON.stringify(data));
+    console.log('After first parse:', data);
+
     const resData = data.map((d) => {
+      console.log('Processing role:', d.id);
+      console.log('Permission before parse:', typeof d.permission, d.permission);
+
+      // If permission is already an object, return it as is
+      if (typeof d.permission === 'object' && d.permission !== null) {
+        return {
+          ...d,
+          permission: d.permission,
+        };
+      }
+
       const permission = JSON.parse(d.permission);
+      console.log('Permission after parse:', permission);
 
       return {
         ...d,
@@ -52,11 +68,12 @@ exports.getRole = async (req, res) => {
     });
 
     res.status(200).send({
-      status: "success ",
-      message: "Get data all users",
+      status: "success",
+      message: "Get data all roles",
       data: resData,
     });
   } catch (error) {
+    console.error('Detailed error:', error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
