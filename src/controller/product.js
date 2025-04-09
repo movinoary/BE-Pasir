@@ -368,23 +368,26 @@ exports.getProduct = async (req, res) => {
     data = JSON.parse(JSON.stringify(data));
 
     const result = data.map((d) => {
-      const price = d.list_price.sort((a, b) =>
-        a.createdAt < b.createdAt ? 1 : -1
-      )[0];
+      // Check if list_price exists and has items
+      const price = d.list_price && d.list_price.length > 0
+        ? d.list_price.sort((a, b) => a.createdAt < b.createdAt ? 1 : -1)[0]
+        : null;
+
       return {
         ...d,
-        price_id: price.id,
-        selling_price: price.selling_price,
-        purchase_price: price.purchase_price,
+        price_id: price?.id || null,
+        selling_price: price?.selling_price || 0,
+        purchase_price: price?.purchase_price || 0,
       };
     });
 
     res.status(200).send({
-      status: "success ",
+      status: "success",
       message: "Get data product",
       data: result,
     });
   } catch (error) {
+    console.error('Error in getProduct:', error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
@@ -449,28 +452,32 @@ exports.getProductCashier = async (req, res) => {
     data = JSON.parse(JSON.stringify(data));
 
     let result = data.map((d) => {
-      const price = d.list_price.sort((a, b) =>
-        a.createdAt < b.createdAt ? 1 : -1
-      )[0];
+      // Check if list_price exists and has items
+      const price = d.list_price && d.list_price.length > 0
+        ? d.list_price.sort((a, b) => a.createdAt < b.createdAt ? 1 : -1)[0]
+        : null;
+
       const variant = d.variant.filter((t) => t.stock !== 0);
 
       return {
         ...d,
-        price_id: price.id,
-        selling_price: price.selling_price,
-        purchase_price: price.purchase_price,
+        price_id: price?.id || null,
+        selling_price: price?.selling_price || 0,
+        purchase_price: price?.purchase_price || 0,
         variant: variant,
       };
     });
 
+    // Filter out products with no variants
     result = result.filter((d) => d.variant.length !== 0);
 
     res.status(200).send({
-      status: "success ",
+      status: "success",
       message: "Get data product",
       data: result,
     });
   } catch (error) {
+    console.error('Error in getProductCashier:', error);
     res.status(400).send({
       status: "failed",
       message: "Server Error",
